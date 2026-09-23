@@ -2,7 +2,7 @@
 .claudian/
 .smart-env/
 .obsidian/workspace.json
-.obsidian/plugins/*/data.json
+.obsidian/plugins/
 .claude/.DS_Store
 .DS_Store
 
