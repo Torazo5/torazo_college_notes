@@ -1,0 +1,34 @@
+{
+  "id": "chem042-midterm1-weak-spots-demo",
+  "course": "CHEM 042",
+  "title": "Midterm 1 weak spots",
+  "mode": "weak-spots",
+  "generatedAt": "2026-09-21T10:00:00-07:00",
+  "examDate": "2026-09-24",
+  "estimatedMinutes": 10,
+  "sources": ["Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "short-answer",
+      "topic": "Radicals",
+      "difficulty": 2,
+      "points": 3,
+      "prompt": "Distinguish a lone pair from an unpaired electron, then explain which one makes a species a radical.",
+      "hints": ["A pair contains two electrons; a radical is defined by what is not paired."],
+      "weakSpotEvidence": "The overview records a correction from “loose electrons” to the precise term “unpaired electrons,” and warns not to confuse this with a lone pair.",
+      "sourceRefs": [{"file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md", "heading": "1.7 Define radicals"}]
+    },
+    {
+      "id": "q2",
+      "type": "worked-response",
+      "topic": "Mass spectrometry",
+      "difficulty": 3,
+      "points": 4,
+      "prompt": "Explain why a neutral fragment formed during mass-spectrometric fragmentation does not appear as its own peak, and describe how its existence can still be inferred.",
+      "hints": ["What does the detector actually respond to?"],
+      "weakSpotEvidence": "The overview explicitly flags that neutral fragments are invisible and must be inferred from mass differences—a detail that was missing from the earlier explanation.",
+      "sourceRefs": [{"file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md", "heading": "1.3 Explain the fundamental principles of how mass spectrometry works"}]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+# Local application state and AI session/index data
+.claudian/
+.smart-env/
+.obsidian/workspace.json
+.obsidian/plugins/*/data.json
+.claude/.DS_Store
+.DS_Store
+
+# Personal schedule and its source screenshot
+Fall 2026 Schedule.md
+Screenshot 2026-09-14 at 12.05.05 PM.png
+
+# Secrets, if added later
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx

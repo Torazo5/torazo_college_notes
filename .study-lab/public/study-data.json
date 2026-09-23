@@ -1,0 +1,2361 @@
+{
+  "sets": [
+    {
+      "id": "chem042-midterm1-imf-bank",
+      "course": "CHEM 042",
+      "title": "Midterm 1 IMF worksheet bank",
+      "mode": "exam",
+      "generatedAt": "2026-09-22T01:15:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 60,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "A polar-column separation",
+          "difficulty": 4,
+          "points": 7,
+          "prompt": "A quality-control lab separates a volatile mixture of propanone, 1-propanol, and hexane by GC. Helium is the mobile phase and the stationary liquid coating is polar.\n\n(a) Complete the comparison: for each analyte, identify its strongest IMF with itself and its expected affinity for the stationary phase.\n(b) Rank the analytes from smallest to largest retention factor k. Explain the ranking as a competition between analyte–stationary and analyte–mobile interactions.",
+          "visual": {
+            "type": "table",
+            "title": "Analytes and polar GC setup",
+            "columns": [
+              "Analyte",
+              "Condensed structure",
+              "Stationary phase"
+            ],
+            "rows": [
+              [
+                "propanone",
+                "CH₃–C(=O)–CH₃",
+                "polar liquid coating"
+              ],
+              [
+                "1-propanol",
+                "CH₃CH₂CH₂–OH",
+                "polar liquid coating"
+              ],
+              [
+                "hexane",
+                "CH₃(CH₂)₄CH₃",
+                "polar liquid coating"
+              ]
+            ],
+            "caption": "Helium carries the vaporized analytes through the column."
+          },
+          "hints": [
+            "Decide whether each molecule can donate a hydrogen bond to itself before ranking its polarity.",
+            "Greater attraction to the stationary phase gives larger k."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.1 Identify the IMFs that hold multiple copies of molecules together"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5c Gas chromatography (GC)"
+            }
+          ],
+          "answer": "Propanone is polar and its strongest IMF with itself is dipole–dipole (plus London); it has appreciable affinity for a polar coating. 1-Propanol has hydrogen bonding with itself and strongest affinity for the polar coating. Hexane has London dispersion only and the weakest polar-coating affinity. Smallest to largest k: hexane < propanone < 1-propanol. Strong stationary-phase attraction holds an analyte longer; helium is inert/nonpolar and chiefly carries analytes forward.",
+          "rubric": [
+            "Identifies London-only hexane, dipole–dipole propanone, and hydrogen-bonding 1-propanol.",
+            "Relates each analyte’s polarity/IMF to a polar stationary phase.",
+            "Ranks k as hexane < propanone < 1-propanol.",
+            "Explains that stronger stationary-phase attraction gives greater retention."
+          ],
+          "explanation": "The analysis is a phase-affinity comparison, not a memorized peak order."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Interactions in a beaker",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Three separate beakers contain (i) NaCl in water, (ii) iodine, I₂, near water, and (iii) ethanol mixed with water.\n\n(a) Name the most important attraction between the species named in each beaker.\n(b) For NaCl in water, draw the orientation of one water molecule around Na⁺ and around Cl⁻. Explain why the two orientations must differ.",
+          "visual": {
+            "type": "diagram",
+            "title": "Water approaching dissolved ions",
+            "nodes": [
+              {
+                "id": "na",
+                "label": "Na⁺",
+                "x": 26,
+                "y": 38,
+                "shape": "circle"
+              },
+              {
+                "id": "cl",
+                "label": "Cl⁻",
+                "x": 74,
+                "y": 38,
+                "shape": "circle"
+              },
+              {
+                "id": "w1",
+                "label": "H₂O",
+                "x": 26,
+                "y": 76,
+                "shape": "box"
+              },
+              {
+                "id": "w2",
+                "label": "H₂O",
+                "x": 74,
+                "y": 76,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "from": "w1",
+                "to": "na",
+                "label": "orient one end toward Na⁺"
+              },
+              {
+                "from": "w2",
+                "to": "cl",
+                "label": "orient one end toward Cl⁻"
+              }
+            ],
+            "caption": "Draw the partial-charge ends of water in your response."
+          },
+          "hints": [
+            "An ion interacting with a polar molecule is a distinct category from a hydrogen bond.",
+            "Water has a δ− oxygen end and δ+ hydrogen ends."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.1 Identify the IMFs that hold multiple copies of molecules together"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.4 Impact of IMFs on solubility"
+            }
+          ],
+          "answer": "NaCl in water: ion–dipole. I₂ near water: dipole–induced dipole, because polar water can induce a temporary dipole in nonpolar I₂. Ethanol + water: hydrogen bonding. Around Na⁺, water’s δ− oxygen faces the cation; around Cl⁻, water’s δ+ hydrogen end faces the anion. Opposite ion charges attract opposite partial ends of water.",
+          "rubric": [
+            "Names ion–dipole, dipole–induced dipole, and hydrogen bonding for the three beakers.",
+            "Orients water oxygen toward Na⁺.",
+            "Orients water hydrogen end toward Cl⁻.",
+            "Explains the opposite orientations with electrostatic attraction."
+          ],
+          "explanation": "The inducer can be a permanent dipole as well as an ion."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "Hydrogen-bond look-alikes",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A student labels every molecule that contains O, N, or F as “hydrogen bonding.” Consider CH₃F, CH₃OCH₃, and CH₃CH₂OH.\n\n(a) For each pure substance, identify the strongest IMF it forms with itself.\n(b) Which of the three can accept a hydrogen bond from water, and which can donate one to water? Explain why the answers are not identical.",
+          "visual": {
+            "type": "table",
+            "title": "Bonding clues",
+            "columns": [
+              "Molecule",
+              "Relevant group",
+              "H directly bonded to N/O/F?"
+            ],
+            "rows": [
+              [
+                "CH₃F",
+                "C–F",
+                "No"
+              ],
+              [
+                "CH₃OCH₃",
+                "C–O–C",
+                "No"
+              ],
+              [
+                "CH₃CH₂OH",
+                "O–H",
+                "Yes"
+              ]
+            ],
+            "caption": "Use the actual covalent bond to the hydrogen, not merely the presence of an electronegative atom."
+          },
+          "hints": [
+            "A molecule can have a suitable lone pair but no suitable donor H.",
+            "All molecular substances also have London dispersion."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.1 Identify the IMFs that hold multiple copies of molecules together"
+            }
+          ],
+          "answer": "CH₃F: dipole–dipole (plus London), not self hydrogen bonding. CH₃OCH₃: dipole–dipole (plus London), not self hydrogen bonding. CH₃CH₂OH: hydrogen bonding. All three can accept a hydrogen bond from water: F and O have lone pairs. Only ethanol can donate a hydrogen bond because it has H directly bonded to O. Neither a C–H nor the mere presence of F/O creates a donor.",
+          "rubric": [
+            "Does not falsely assign self hydrogen bonding to CH₃F or dimethyl ether.",
+            "Assigns ethanol hydrogen bonding.",
+            "Correctly identifies all three as water H-bond acceptors under this course treatment.",
+            "Identifies only ethanol as a donor and explains the direct O–H requirement."
+          ],
+          "explanation": "Donor and acceptor conditions are separate; a lone pair alone does not make a molecule self-hydrogen-bonding."
+        },
+        {
+          "id": "q4",
+          "type": "worked-response",
+          "topic": "When size defeats polarity",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "The data below are for pure substances.\n\n(a) Rank them from lowest to highest boiling point and explain your reasoning using both force type and molecular size.\n(b) Explain why it would be wrong to use only the statement “dipole–dipole is stronger than London dispersion” to rank HCl and octane.",
+          "visual": {
+            "type": "table",
+            "title": "Substances to compare",
+            "columns": [
+              "Substance",
+              "Formula",
+              "Key feature"
+            ],
+            "rows": [
+              [
+                "methane",
+                "CH₄",
+                "small, nonpolar"
+              ],
+              [
+                "hydrogen chloride",
+                "HCl",
+                "small, polar"
+              ],
+              [
+                "ammonia",
+                "NH₃",
+                "small, N–H bonds"
+              ],
+              [
+                "octane",
+                "C₈H₁₈",
+                "large, nonpolar"
+              ]
+            ],
+            "caption": "Use the information in the table together with IMF reasoning."
+          },
+          "hints": [
+            "For similar size, IMF type is a strong guide; this set is not all similar size.",
+            "More electrons and more surface area increase total London attraction."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.3 Rank IMFs by strength"
+            }
+          ],
+          "answer": "Lowest to highest boiling point: methane < HCl < NH₃ < octane. CH₄ has only very weak London forces. HCl adds dipole–dipole. NH₃ hydrogen-bonds. Octane is nonpolar, but its many electrons and large surface give enough summed London dispersion to exceed the small polar molecules. “Dipole–dipole is stronger per comparable contact” cannot settle HCl versus octane because the substances differ drastically in size and polarizability.",
+          "rubric": [
+            "Ranks CH₄ < HCl < NH₃ < octane.",
+            "Uses force type for the small molecules.",
+            "Uses octane’s size/electrons/surface area for its strong total London forces.",
+            "Explains why force rankings require comparable molecular size."
+          ],
+          "explanation": "London forces are weakest per interaction but can dominate when there are many contacts."
+        },
+        {
+          "id": "q5",
+          "type": "worked-response",
+          "topic": "Shape changes the contact area",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "n-Pentane, 2-methylbutane, and neopentane all have formula C₅H₁₂.\n\n(a) Rank their boiling points from lowest to highest.\n(b) Explain why formula, molar mass, and dominant IMF are not enough to make them tie. Your explanation must refer to a molecular shape feature and the number/quality of contacts between molecules.",
+          "visual": {
+            "type": "diagram",
+            "title": "Three C₅H₁₂ carbon skeletons",
+            "nodes": [
+              {
+                "id": "n",
+                "label": "n-pentane: long chain",
+                "x": 20,
+                "y": 20,
+                "shape": "box"
+              },
+              {
+                "id": "i",
+                "label": "2-methylbutane: branched",
+                "x": 50,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "neo",
+                "label": "neopentane: compact",
+                "x": 80,
+                "y": 80,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "from": "n",
+                "to": "i",
+                "label": "more branching"
+              },
+              {
+                "from": "i",
+                "to": "neo",
+                "label": "more compact"
+              }
+            ],
+            "caption": "All three have London dispersion as their dominant IMF."
+          },
+          "hints": [
+            "Straight molecules can touch neighboring molecules along more surface.",
+            "Do not invent a dipole or hydrogen bonding in these hydrocarbons."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.3 Rank IMFs by strength"
+            }
+          ],
+          "answer": "Lowest to highest boiling point: neopentane < 2-methylbutane < n-pentane. All are nonpolar and rely on London dispersion, but the long straight n-pentane molecules have the greatest contact surface and strongest summed attractions. More branching makes molecules compact and reduces effective surface contact; neopentane is most compact.",
+          "rubric": [
+            "Ranks neopentane < 2-methylbutane < n-pentane.",
+            "States that all share London dispersion and the same formula/mass.",
+            "Explains the ranking through surface area/contact and branching."
+          ],
+          "explanation": "Shape changes total dispersion contact without changing the molecular formula."
+        },
+        {
+          "id": "q6",
+          "type": "worked-response",
+          "topic": "Reading retention evidence",
+          "difficulty": 4,
+          "points": 7,
+          "prompt": "A GC column has a polar stationary phase. An unretained methane marker appears first at 1.5 min. The mixture’s two analyte peaks appear at 3.0 min and 7.5 min.\n\n(a) Calculate k for both analyte peaks.\n(b) The analytes are pentane and 1-propanol. Assign each analyte to a peak and explain the IMF-based reason.\n(c) State what the first peak represents and why it is not helium.",
+          "visual": {
+            "type": "plot",
+            "title": "GC output",
+            "xLabel": "Time / min",
+            "yLabel": "Detector response",
+            "xDomain": [
+              0,
+              9
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": false,
+            "traces": [
+              {
+                "kind": "peaks",
+                "color": "#86513b",
+                "points": [
+                  {
+                    "x": 1.5,
+                    "y": 25,
+                    "label": "1.5"
+                  },
+                  {
+                    "x": 3,
+                    "y": 55,
+                    "label": "3.0"
+                  },
+                  {
+                    "x": 7.5,
+                    "y": 100,
+                    "label": "7.5"
+                  }
+                ]
+              }
+            ],
+            "caption": "The first peak is from the methane marker introduced with the sample."
+          },
+          "hints": [
+            "Use the first peak’s time as tₘ.",
+            "A later peak means stronger interaction with the stationary phase."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5b Reading a chromatogram: t_R, t_m, and k"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5c Gas chromatography (GC)"
+            }
+          ],
+          "answer": "For 3.0 min, k=(3.0−1.5)/1.5=1.0. For 7.5 min, k=(7.5−1.5)/1.5=4.0. Pentane is the 3.0-min peak because it is nonpolar and has weak attraction to the polar stationary phase. 1-Propanol is the 7.5-min peak because its polar O–H group gives strong interactions, including hydrogen bonding, with the polar phase. The 1.5-min peak is the methane void-time marker, not helium; helium flows continuously and is the baseline/mobile phase.",
+          "rubric": [
+            "Calculates k = 1.0 and k = 4.0.",
+            "Assigns pentane earlier and 1-propanol later based on polar-phase affinity.",
+            "Identifies methane as the void marker.",
+            "Explains why continuous helium is not a chromatogram peak."
+          ],
+          "explanation": "Retention factor reports time retained relative to time moving with the mobile phase."
+        },
+        {
+          "id": "q7",
+          "type": "worked-response",
+          "topic": "The phase reversal",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Pentane and 1-propanol are instead separated by reverse-phase HPLC with a nonpolar stationary phase and a methanol/water mobile phase.\n\n(a) Rank the two analytes from earliest to latest elution and explain the tug of war with both phases.\n(b) If 1-propanol is taking too long to elute, state the specified change to the mobile-phase composition and why it decreases tR.",
+          "visual": {
+            "type": "table",
+            "title": "Reverse-phase HPLC setup",
+            "columns": [
+              "Phase",
+              "Polarity",
+              "Role"
+            ],
+            "rows": [
+              [
+                "Packed stationary particles",
+                "nonpolar",
+                "retains analytes"
+              ],
+              [
+                "Methanol/water mixture",
+                "polar",
+                "carries analytes"
+              ],
+              [
+                "1-propanol",
+                "polar, can H-bond",
+                "analyte"
+              ],
+              [
+                "pentane",
+                "nonpolar",
+                "analyte"
+              ]
+            ],
+            "caption": "Use the phase properties to determine which interactions dominate."
+          },
+          "hints": [
+            "Ask which analyte is carried especially well by the mobile liquid.",
+            "The course notes specify how increasing the water fraction changes the mobile phase."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5d High performance liquid chromatography (HPLC), reverse phase"
+            }
+          ],
+          "answer": "Earliest to latest: 1-propanol < pentane. 1-Propanol interacts strongly with polar methanol/water and less with the nonpolar stationary phase, so it is carried through faster. Pentane has London compatibility with the nonpolar stationary phase and is retained longer. To decrease 1-propanol’s tR, increase the water fraction; this makes the mobile phase more polar and strengthens the analyte–mobile interaction.",
+          "rubric": [
+            "Ranks 1-propanol before pentane.",
+            "Uses both the nonpolar stationary phase and polar mobile phase to justify the result.",
+            "Increases water fraction and correctly connects it to lower tR."
+          ],
+          "explanation": "Reverse phase flips the GC retention logic because the stationary phase’s polarity flips."
+        },
+        {
+          "id": "q8",
+          "type": "worked-response",
+          "topic": "Solubility as a replacement problem",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Predict whether each pair forms a well-mixed solution or separates into layers: ethanol + water, octanol + water, and hexane + water.\n\n(a) Complete the prediction for all three.\n(b) For octanol + water, explain why the molecule’s O–H group does not automatically make the whole molecule highly water-soluble.\n(c) Explain what water–water attractions would have to be replaced if hexane mixed with water.",
+          "visual": {
+            "type": "table",
+            "title": "Solvent-pair evidence",
+            "columns": [
+              "Pair",
+              "Polar/H-bonding feature",
+              "Nonpolar feature"
+            ],
+            "rows": [
+              [
+                "ethanol + water",
+                "one O–H",
+                "short carbon group"
+              ],
+              [
+                "octanol + water",
+                "one O–H",
+                "eight-carbon chain"
+              ],
+              [
+                "hexane + water",
+                "none on hexane",
+                "six-carbon chain"
+              ]
+            ],
+            "caption": "Judge the balance of the whole molecule, not just one functional group."
+          },
+          "hints": [
+            "As an alcohol’s hydrocarbon tail grows, its water solubility falls.",
+            "Mixing must replace attractions already present in both pure liquids."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.4 Impact of IMFs on solubility"
+            }
+          ],
+          "answer": "Ethanol + water mixes well; octanol + water has low solubility and tends to separate; hexane + water separates. Octanol’s one O–H can hydrogen-bond, but its long eight-carbon nonpolar tail dominates the molecule’s interactions and becomes increasingly unfavorable in water. For hexane to mix, water would give up strong water–water hydrogen bonds and replace them chiefly with weak London contacts to hexane, which is unfavorable.",
+          "rubric": [
+            "Correctly predicts ethanol/water mixing and poor mixing for octanol/water and hexane/water.",
+            "Explains the long nonpolar octanol tail outweighing one OH group.",
+            "Identifies water–water hydrogen bonds and weak hexane contacts as the unfavorable replacement."
+          ],
+          "explanation": "Solubility depends on whether new solute–solvent attractions can replace the attractions broken in the pure substances."
+        },
+        {
+          "id": "q9",
+          "type": "worked-response",
+          "topic": "What a phase change breaks",
+          "difficulty": 3,
+          "points": 5,
+          "prompt": "A student claims that boiling a beaker of water breaks the O–H covalent bonds, leaving hydrogen and oxygen atoms in the vapor.\n\n(a) Correct the claim by identifying what attractions are disrupted during boiling and what chemical formula the vapor still has.\n(b) Compare an intramolecular covalent bond and an intermolecular force in terms of where it acts and which process normally disrupts it.",
+          "hints": [
+            "Steam is not a new substance.",
+            "Use the words within and between carefully."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.2 How IMFs differ from covalent bonds"
+            }
+          ],
+          "answer": "Boiling water disrupts hydrogen bonds and other intermolecular attractions between separate H₂O molecules; the vapor is still H₂O. A covalent O–H bond is within one molecule and shares electrons; an IMF is between separate molecules. Phase changes and dissolving normally disrupt IMFs, while chemical reactions are needed to break/rearrange covalent bonds.",
+          "rubric": [
+            "States that steam remains H₂O.",
+            "Identifies intermolecular hydrogen bonds, not O–H bonds, as disrupted by boiling.",
+            "Distinguishes within-molecule covalent bonds from between-molecule IMFs.",
+            "Links phase change to IMF disruption and reaction to covalent change."
+          ],
+          "explanation": "A change of state does not normally change a substance’s chemical identity."
+        },
+        {
+          "id": "q10",
+          "type": "worked-response",
+          "topic": "Temperature changes the winner",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "At about 288 K, Earth has liquid water and methane is a gas. At about 94 K on Titan, methane forms liquid lakes and water is solid ice.\n\n(a) Complete a two-column explanation by identifying the dominant IMF for each substance.\n(b) Explain all four phase observations using the competition between thermal energy and intermolecular attraction.\n(c) State why “methane is a gas” is not a complete chemical property statement.",
+          "visual": {
+            "type": "table",
+            "title": "Planetary conditions",
+            "columns": [
+              "Location",
+              "Temperature",
+              "Water",
+              "Methane"
+            ],
+            "rows": [
+              [
+                "Earth",
+                "about 288 K",
+                "liquid",
+                "gas"
+              ],
+              [
+                "Titan",
+                "about 94 K",
+                "solid",
+                "liquid"
+              ]
+            ],
+            "caption": "Compare the molecules’ attractions with the thermal energy available at each location."
+          },
+          "hints": [
+            "Water and methane do not have the same strongest interaction.",
+            "A lower temperature changes molecular kinetic energy."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.6 IMFs vs thermal energy: why phases differ (Lecture 10, Titan)"
+            }
+          ],
+          "answer": "Water’s dominant IMF is a hydrogen-bond network; methane’s is London dispersion. At warm Earth conditions, water’s strong network can still maintain a liquid while methane’s weak London forces lose to greater thermal motion and methane is gaseous. At cold Titan conditions, thermal energy is so low that methane’s weak London forces can condense it, while water’s strong hydrogen bonds dominate and water is solid. “Methane is a gas” is incomplete because phase depends on temperature/thermal energy as well as attraction strength.",
+          "rubric": [
+            "Identifies water hydrogen bonding and methane London dispersion.",
+            "Explains Earth and Titan outcomes using different available thermal energy.",
+            "Explains methane condensation at low temperature despite weak IMFs.",
+            "Rejects an intrinsic, temperature-free phase label."
+          ],
+          "explanation": "Phase is the outcome of intermolecular attractions competing with molecular kinetic energy."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-grind-01",
+      "course": "CHEM 042",
+      "title": "Midterm 1 grind 1 — evidence, bonds, and IR",
+      "mode": "exam",
+      "generatedAt": "2026-09-22T01:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 55,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "Evidence from a mass spectrum",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "The highest-mass peaks for an unknown are shown. (a) State what the spacing and relative heights say about the atom(s) in the intact molecule. (b) A lower-mass pair occurs at m/z 63 and 65 in about a 3:1 ratio. Explain what the lower pair says about the charged fragment and why the neutral piece from its formation is absent from the spectrum.",
+          "visual": {
+            "type": "plot",
+            "title": "Highest-mass region",
+            "xLabel": "m/z",
+            "yLabel": "Relative abundance",
+            "xDomain": [
+              126,
+              132
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": false,
+            "traces": [
+              {
+                "kind": "peaks",
+                "color": "#9b4e35",
+                "points": [
+                  {
+                    "x": 128,
+                    "y": 100,
+                    "label": "128"
+                  },
+                  {
+                    "x": 130,
+                    "y": 66,
+                    "label": "130"
+                  }
+                ]
+              }
+            ],
+            "caption": "This is the highest-mass cluster observed."
+          },
+          "hints": [
+            "Compare the pattern with the one-atom and two-atom isotope patterns in your table.",
+            "A charged fragment retains any isotope signature from atoms that remain in it."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"
+            }
+          ],
+          "answer": "The 128:130 pair is M:M+2 ≈ 3:2, which is the two-chlorine pattern (approximately 9:6:1; the M+4 member may be too small to show here). The 63:65 pair at 3:1 means the charged fragment retains one Cl. The complementary neutral fragment is not detected because the instrument detects ions, not neutral radicals or molecules.",
+          "rubric": [
+            "Recognizes a two-Cl isotope cluster rather than a one-Cl or one-Br pattern.",
+            "Identifies one Cl retained in the 63/65 charged fragment from its 3:1 pair.",
+            "States that neutral products are invisible to the detector."
+          ],
+          "explanation": "Chlorine isotope patterns remain attached to any ion that still contains chlorine."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Counting isotope combinations",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A molecule has two chlorine atoms. Use 0.75 for the fraction of ³⁵Cl and 0.25 for the fraction of ³⁷Cl. (a) Calculate the probabilities for the all-light, mixed, and all-heavy chlorine combinations. (b) Give the resulting M : M+2 : M+4 ratio and explain why the mixed term must include a factor of 2.",
+          "hints": [
+            "There are two distinguishable ways to get one light and one heavy isotope.",
+            "Normalize the three probabilities to the smallest one for a simple ratio."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.9 Predict simple fragmentation patterns for hydrocarbons and halogenated hydrocarbons"
+            }
+          ],
+          "answer": "P(³⁵Cl–³⁵Cl) = 0.75² = 0.5625. P(mixed) = 2(0.75)(0.25) = 0.375. P(³⁷Cl–³⁷Cl) = 0.25² = 0.0625. Dividing by 0.0625 gives 9:6:1. The mixed outcome has ³⁵Cl on either of the two chlorine positions, so both arrangements count.",
+          "rubric": [
+            "Calculates 0.5625, 0.375, and 0.0625.",
+            "Gives 9:6:1 for M:M+2:M+4.",
+            "Explains the factor of 2 as the two mixed arrangements."
+          ],
+          "explanation": "Forgetting the two mixed arrangements is the usual source of the wrong middle peak."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "Structure bookkeeping",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "For HCN, (a) use the HAVE/NEED method to determine the total number of bonds and lone pairs, then draw a Lewis structure. (b) Calculate the formal charge on each atom and decide whether the molecule has a net molecular dipole. Give the geometry about carbon as part of your reasoning.",
+          "hints": [
+            "Hydrogen needs 2 electrons; C and N each need 8.",
+            "For formal charge, count lone-pair electrons rather than lone-pair pairs."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.6 Draw and evaluate Lewis structures"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.9 Use VSEPR to predict shape and polarity"
+            }
+          ],
+          "answer": "HAVE = 1 + 4 + 5 = 10 e⁻. NEED = 2 + 8 + 8 = 18 e⁻. Bonding electrons = 8, so there are 4 bonds; lone-pair electrons = 2, so there is one lone pair. The structure is H–C≡N: with the lone pair on N. FC(H)=0, FC(C)=0, FC(N)=0. Carbon has two domains and is linear. The C–H and C≡N bond dipoles do not cancel because the ends differ, so HCN is polar.",
+          "rubric": [
+            "Obtains 10 HAVE electrons, 18 NEED electrons, four bonds, and one lone pair.",
+            "Draws H–C≡N with the lone pair on N.",
+            "Gets zero formal charge on all three atoms.",
+            "Uses linear geometry and unequal ends to justify a net dipole."
+          ],
+          "explanation": "A linear molecule is nonpolar only when its opposing dipoles are equal and opposite."
+        },
+        {
+          "id": "q4",
+          "type": "worked-response",
+          "topic": "Bond breaking evidence",
+          "difficulty": 3,
+          "points": 5,
+          "prompt": "Electron ionization of a hydrocarbon produces intense ions at m/z 15, 29, 43, and 57, separated by 14 mass units. (a) Assign a chemically plausible formula to the m/z 43 ion. (b) Explain which family of bonds is preferentially breaking and use the bond-energy trend to explain why this is more likely than loss of hydrogen atoms.",
+          "hints": [
+            "A 14-unit difference is one CH₂ group.",
+            "Compare the course-average strengths of C–C and C–H bonds."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.9 Predict simple fragmentation patterns for hydrocarbons and halogenated hydrocarbons"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.8 Define bond dissociation energies and use them to evaluate bond strength"
+            }
+          ],
+          "answer": "m/z 43 can be C₃H₇⁺. The repeated 14-unit spacing is the alkyl-cation sequence, so C–C cleavage is common. C–C bonds are about 348 kJ/mol while C–H bonds are about 413 kJ/mol; weaker C–C bonds are easier to break, whereas simple H loss is comparatively rare.",
+          "rubric": [
+            "Assigns a plausible alkyl cation such as C₃H₇⁺ to m/z 43.",
+            "Connects 14-unit spacing to CH₂/alkyl fragments.",
+            "Uses the lower C–C BDE to justify preferential C–C cleavage."
+          ],
+          "explanation": "The base peak reports the most abundant ion, not necessarily the intact molecule."
+        },
+        {
+          "id": "q5",
+          "type": "worked-response",
+          "topic": "Energy and absorption",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A student says: “IR sends radio waves into a sample, and an upward feature means the sample absorbed more light.” (a) Correct both errors, including what must match for absorption to occur. (b) On the supplied sketch, explain why the curve is much steeper when the nuclei are pushed too close together than when the bond is stretched toward dissociation.",
+          "visual": {
+            "type": "diagram",
+            "title": "Bond potential-energy sketch",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "compressed nuclei",
+                "x": 14,
+                "y": 22,
+                "shape": "box"
+              },
+              {
+                "id": "b",
+                "label": "equilibrium distance",
+                "x": 45,
+                "y": 78,
+                "shape": "circle"
+              },
+              {
+                "id": "c",
+                "label": "separated atoms",
+                "x": 87,
+                "y": 39,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "from": "a",
+                "to": "b",
+                "label": "energy falls steeply"
+              },
+              {
+                "from": "b",
+                "to": "c",
+                "label": "energy rises toward plateau"
+              }
+            ],
+            "caption": "The nodes mark positions along a potential-energy curve, not energy levels."
+          },
+          "hints": [
+            "Separate the kind of electromagnetic radiation from the detector’s vertical axis.",
+            "Think about repulsion at very short internuclear distance."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.2 Explain absorption spectroscopy"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.3 Illustrate with potential energy diagrams how light excites vibrational energy levels"
+            }
+          ],
+          "answer": "IR uses infrared light, not radio waves; radio waves are used for NMR. Absorption occurs when photon energy matches a quantized energy gap, E = hν = ΔE. In a transmittance spectrum, absorption removes light, so the plotted %T dips downward. Compression produces a steep rise because close nuclei strongly repel; stretching gradually weakens attraction until the curve reaches the separated-atom/dissociation plateau.",
+          "rubric": [
+            "Correctly distinguishes IR from NMR radiation.",
+            "States the energy-matching condition for absorption.",
+            "Explains downward transmittance dips.",
+            "Explains short-distance nuclear repulsion and the dissociation plateau."
+          ],
+          "explanation": "The asymmetric well is physical: compression and dissociation have different energy behavior."
+        },
+        {
+          "id": "q6",
+          "type": "worked-response",
+          "topic": "Comparing vibrations",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "For this question, assume a C–C single bond and a C–N single bond are both observable. (a) Calculate the reduced mass of each using C = 12 and N = 14. (b) Predict which one absorbs at the higher wavenumber if their force constants are comparable. (c) A C=C bond has a stretching signal at 1650 cm⁻¹. If the question explicitly tells you to assume force constant is proportional to bond order, estimate the C≡C stretching wavenumber.",
+          "hints": [
+            "Reduced mass is a product divided by a sum, not the sum of the masses.",
+            "For the last part, wavenumber scales with the square root of the force constant."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.8 Correlate bond force constant and reduced mass to IR wavenumber"
+            }
+          ],
+          "answer": "μred(C–C) = 12×12/(12+12) = 6.00. μred(C–N) = 12×14/(12+14) = 6.46. With comparable k, C–C has lower reduced mass and therefore higher wavenumber. If k(C≡C)=3⁄2 k(C=C), then ṽ(C≡C)=1650√1.5≈2020 cm⁻¹.",
+          "rubric": [
+            "Uses product-over-sum and obtains 6.00 and about 6.46.",
+            "Chooses C–C as higher wavenumber under the stated comparable-k condition.",
+            "Uses square-root scaling and estimates about 2020 cm⁻¹."
+          ],
+          "explanation": "The bond-order scaling is only valid because the question explicitly supplied that approximation."
+        },
+        {
+          "id": "q7",
+          "type": "worked-response",
+          "topic": "Reading an IR trace",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "An unknown has the absorptions represented below. (a) Identify the two most diagnostic bond features and give the most supported functional-group class. (b) Explain why the low-transmittance portions point downward, and state which side of a standard IR spectrum has higher wavenumber.",
+          "visual": {
+            "type": "plot",
+            "title": "IR observations",
+            "xLabel": "Wavenumber / cm⁻¹",
+            "yLabel": "% transmittance",
+            "xDomain": [
+              400,
+              4000
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": true,
+            "traces": [
+              {
+                "kind": "line",
+                "color": "#285f88",
+                "points": [
+                  {
+                    "x": 4000,
+                    "y": 95
+                  },
+                  {
+                    "x": 3350,
+                    "y": 90
+                  },
+                  {
+                    "x": 2960,
+                    "y": 91
+                  },
+                  {
+                    "x": 1715,
+                    "y": 18
+                  },
+                  {
+                    "x": 1220,
+                    "y": 38
+                  },
+                  {
+                    "x": 400,
+                    "y": 94
+                  }
+                ]
+              }
+            ],
+            "caption": "The trace is schematic; only the marked regions are intended as evidence."
+          },
+          "hints": [
+            "Use the combination of features, not one peak alone.",
+            "In transmittance mode, less light arriving at the detector means a lower plotted value."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.4 Explain the axes and data points on an IR spectrum"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.14 Interpret an IR spectrum to identify functional groups"
+            }
+          ],
+          "answer": "A strong sharp absorption near 1715 cm⁻¹ indicates C=O and a strong feature near 1220 cm⁻¹ supports C–O. With no broad O–H feature, the best-supported class is an ester. Dips point down because the graph is % transmittance: more absorption means less transmitted light. Higher wavenumber is on the left of the standard 4000→400 cm⁻¹ axis.",
+          "rubric": [
+            "Identifies C=O and C–O evidence.",
+            "Concludes ester and rules out an O–H-containing alternative using the absent broad feature.",
+            "Explains the transmittance dip and reverse x-axis direction."
+          ],
+          "explanation": "A combination of diagnostic signals is safer than identifying a whole molecule from one peak."
+        },
+        {
+          "id": "q8",
+          "type": "worked-response",
+          "topic": "Activity and intensity",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Consider N₂, HCl, and the symmetric stretch of CO₂. (a) Predict which cases have an observable IR stretching absorption and justify each by what happens to the molecular dipole during the vibration. (b) Compare the expected intensity of C=O and C=C stretches in otherwise similar molecules, and explain the difference without claiming that every double bond is equally intense.",
+          "hints": [
+            "Ask whether the vibration changes dipole moment, not simply whether a bond exists.",
+            "Intensity tracks the size of the dipole change."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.11 Explain how vibrational modes can be IR active or inactive"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.12 Predict the relative intensity of IR signals"
+            }
+          ],
+          "answer": "N₂ is IR inactive because its stretch never creates a changing dipole. HCl is active because stretching changes its polar bond dipole. The symmetric stretch of CO₂ is inactive because the equal C=O dipoles change but remain cancelling. C=O is generally much more intense than C=C because its larger polarity produces a larger dipole change during stretching; symmetry can further weaken or eliminate a C=C response.",
+          "rubric": [
+            "Correctly calls N₂ inactive, HCl active, and CO₂ symmetric stretch inactive.",
+            "Justifies each outcome using change in dipole moment.",
+            "Ranks C=O more intense than C=C and links it to polarity/dipole change."
+          ],
+          "explanation": "IR activity and IR intensity both depend on dipole behavior, but they answer different questions."
+        },
+        {
+          "id": "q9",
+          "type": "worked-response",
+          "topic": "Shape and whole-molecule polarity",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "For each central atom in SO₂, (a) state the electron geometry and molecular shape, then give the approximate bond angle. (b) Draw the two S–O bond dipoles and decide whether they cancel. Explain why “two equal bond dipoles” alone is not enough to decide the answer.",
+          "visual": {
+            "type": "diagram",
+            "title": "SO₂ connectivity",
+            "nodes": [
+              {
+                "id": "o1",
+                "label": "O",
+                "x": 18,
+                "y": 25,
+                "shape": "circle"
+              },
+              {
+                "id": "s",
+                "label": "S",
+                "x": 50,
+                "y": 60,
+                "shape": "circle"
+              },
+              {
+                "id": "o2",
+                "label": "O",
+                "x": 82,
+                "y": 25,
+                "shape": "circle"
+              },
+              {
+                "id": "lp",
+                "label": "one lone-pair domain",
+                "x": 50,
+                "y": 12,
+                "shape": "box"
+              }
+            ],
+            "edges": [
+              {
+                "from": "s",
+                "to": "o1",
+                "label": "bond"
+              },
+              {
+                "from": "s",
+                "to": "o2",
+                "label": "bond"
+              }
+            ],
+            "caption": "Use electron domains around sulfur; this schematic is not drawn to an angle scale."
+          },
+          "hints": [
+            "A double bond is one electron domain for VSEPR.",
+            "Molecular shape ignores the lone pair, but the lone pair still changes the geometry."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.9 Use VSEPR to predict shape and polarity"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.10 Draw and identify the direction and relative magnitude of bond dipoles"
+            }
+          ],
+          "answer": "SO₂ has three electron domains around S: two bonds and one lone pair, so its electron geometry is trigonal planar and its molecular shape is bent, with an angle slightly less than 120° (about 119°). Each dipole points S→O. In the bent arrangement the vectors do not oppose at 180°, so a net dipole remains. Equal magnitude alone does not guarantee cancellation; the directions/geometry must be symmetric.",
+          "rubric": [
+            "States trigonal-planar electron geometry and bent molecular shape.",
+            "Gives an angle below 120° and attributes compression to the lone pair.",
+            "Draws dipoles toward O and concludes they do not cancel.",
+            "Distinguishes equal dipoles from vector cancellation."
+          ],
+          "explanation": "Lone pairs are omitted from the molecular-shape name but not from their geometric effect."
+        },
+        {
+          "id": "q10",
+          "type": "worked-response",
+          "topic": "Periodic trends tied to bonding",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Without using numerical BDE values, rank H–F, H–Cl, H–Br, and H–I from strongest to weakest. Then explain why both atom size and electronegativity support your order. Finally, state which bond has the larger electronegativity difference, H–F or H–Cl, and why that fact should not be used to calculate an exact BDE.",
+          "hints": [
+            "Moving down a group changes both bond length and electronegativity.",
+            "Use electronegativity to reason about direction and relative ionic character, not as a direct BDE calculator."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.6 Predict relative bond strengths WITHOUT BDE values"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.5 Predict relative size, mass, and electronegativity from the periodic table"
+            }
+          ],
+          "answer": "H–F > H–Cl > H–Br > H–I. Down the halogen group atoms become larger, making longer, weaker overlap with H. Electronegativity also falls down the group, so the partial-charge attraction/ionic character decreases. H–F has the larger Δχ (4.0−2.2=1.8 versus 3.2−2.2=1.0). Δχ supports ranking but is not proportional to BDE, so it cannot by itself give an exact bond energy.",
+          "rubric": [
+            "Gives the correct strongest-to-weakest order.",
+            "Uses increasing size/bond length to explain weakening down the group.",
+            "Uses decreasing Δχ as a second supporting factor.",
+            "States H–F has larger Δχ and does not overclaim exact BDE prediction."
+          ],
+          "explanation": "The trend is strongest when multiple chemical principles point to the same conclusion."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-grind-02",
+      "course": "CHEM 042",
+      "title": "Midterm 1 grind 2 — structures, NMR, and forces",
+      "mode": "exam",
+      "generatedAt": "2026-09-22T01:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 55,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "Unsaturation and possible structures",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "An unknown has formula C₄H₈O. (a) Calculate its degree of unsaturation. (b) Draw two constitutional isomers consistent with that result: one containing a C=O and one containing a C=C. For each, state one feature you would use to distinguish the two kinds of structures using an IR spectrum.",
+          "hints": [
+            "Oxygen is omitted from the degree-of-unsaturation equation.",
+            "A degree of unsaturation can be a ring or one π bond."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.2 Calculate and interpret degrees of unsaturation (DoU)"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.14 Interpret an IR spectrum to identify functional groups"
+            }
+          ],
+          "answer": "DoU = (2(4)+2−8)/2 = 1. One carbonyl isomer is butanal, CH₃CH₂CH₂CHO; one alkene isomer is CH₂=CHCH₂CH₂OH (one of several valid alkene structures). The carbonyl compound has a strong, sharp C=O absorption around 1650–1750 cm⁻¹. The alkene has a C=C feature around 1600–1680 cm⁻¹ and may show =C–H just above 3000 cm⁻¹, but no carbonyl peak.",
+          "rubric": [
+            "Calculates DoU = 1.",
+            "Draws valid constitutional isomers with a carbonyl versus C=C.",
+            "Uses the presence/absence of C=O and an appropriate alkene feature to distinguish them."
+          ],
+          "explanation": "One degree of unsaturation can represent either one ring or one double bond; IR supplies bond-type evidence."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Connectivity versus drawing orientation",
+          "difficulty": 3,
+          "points": 5,
+          "prompt": "A student draws CH₃CH₂CH₂OH once as a zigzag with the OH on the right, and again with the paper rotated so the OH appears on the left. (a) Decide whether the two drawings are constitutional isomers, the same compound, or neither. (b) Give a reliable procedure for deciding this in a harder case, then contrast it with 1-propanol versus 2-propanol.",
+          "hints": [
+            "Track which atoms are connected to which; do not judge by the picture’s pose.",
+            "Constitutional isomers have the same formula but different connectivity."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.1 Define, identify and draw constitutional isomers"
+            }
+          ],
+          "answer": "The rotated drawings of 1-propanol are the same compound: every atom has the same neighbors. In a harder case, write or trace the connectivity of each structure, then compare which atoms are bonded; do not use page orientation or a bent drawing as evidence. 1-propanol and 2-propanol are constitutional isomers because the OH-bearing carbon has different connectivity/position in the carbon chain.",
+          "rubric": [
+            "Calls rotated 1-propanol the same compound.",
+            "Describes connectivity comparison as the decision method.",
+            "Correctly calls 1-propanol and 2-propanol constitutional isomers."
+          ],
+          "explanation": "A drawing can rotate or flip without changing a molecule; a constitutional isomer changes bonds between atoms."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "Hydrogen environments",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "For CH₃CH₂Cl, (a) predict the number of distinct ¹H NMR signals and the integration ratio. (b) predict the splitting of each signal using hydrogens within three bonds. (c) decide which signal is farther downfield and explain the full induction-to-shielding reasoning chain.",
+          "visual": {
+            "type": "diagram",
+            "title": "Two proton environments",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "CH₃",
+                "x": 20,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "b",
+                "label": "CH₂",
+                "x": 50,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "c",
+                "label": "Cl",
+                "x": 82,
+                "y": 50,
+                "shape": "circle"
+              }
+            ],
+            "edges": [
+              {
+                "from": "a",
+                "to": "b",
+                "label": "single bond"
+              },
+              {
+                "from": "b",
+                "to": "c",
+                "label": "single bond"
+              }
+            ],
+            "caption": "Hydrogens attached to a displayed carbon belong to that environment."
+          },
+          "hints": [
+            "Equivalent H atoms give one signal; integration counts H, whereas splitting counts neighboring H.",
+            "An electronegative atom withdraws electron density through σ bonds."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.6 Number of unique signals in a ¹H NMR spectrum"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.7 Explain how electronegative atoms introduce induction"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.12 (Covered in lecture) Spin–spin splitting and the n + 1 rule"
+            }
+          ],
+          "answer": "CH₃CH₂Cl has two signals with 3:2 integration. The CH₃ signal is a triplet from two neighboring CH₂ H; the CH₂ signal is a quartet from three neighboring CH₃ H. CH₂Cl is farther downfield because Cl withdraws electron density inductively, leaving those H nuclei less shielded from the external field, so they resonate at higher frequency/higher ppm.",
+          "rubric": [
+            "Gives two signals and 3:2 integration.",
+            "Gives CH₃ triplet and CH₂ quartet using all H within three bonds.",
+            "Places CH₂Cl downfield and explains induction → lower electron density → less shielding → higher ppm."
+          ],
+          "explanation": "Integration answers how many H are in an environment; splitting is a separate neighbor count."
+        },
+        {
+          "id": "q4",
+          "type": "worked-response",
+          "topic": "Signal counting from symmetry",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Compare ethanol, CH₃CH₂OH, with dimethyl ether, CH₃OCH₃. (a) How many distinct ¹H NMR signals does each have under the course-level treatment? (b) Explain how symmetry causes the ether result. (c) State one reason the two compounds could have the same molecular formula but still be distinguished using another spectroscopy method in this unit.",
+          "hints": [
+            "Before counting, identify a symmetry operation that maps atoms onto equivalent atoms.",
+            "Same formula does not imply identical bond types."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.4 Equivalent hydrogens by reflectional or rotational symmetry"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.6 Number of unique signals in a ¹H NMR spectrum"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "5. CROSS-CUTTING CHAINS OF REASONING (the \"why\" arrows)"
+            }
+          ],
+          "answer": "Ethanol has three main environments under this course treatment: CH₃, CH₂, and OH. Dimethyl ether has one: its two CH₃ groups are related by symmetry, so all six H are equivalent. The two formulas are both C₂H₆O but their connectivity differs; IR can distinguish ethanol’s O–H broad absorption from ether’s lack of O–H (and both may show C–O).",
+          "rubric": [
+            "Gives ethanol 3 signals and dimethyl ether 1.",
+            "Uses symmetry to make the ether methyl groups equivalent.",
+            "Uses an O–H IR feature to distinguish the compounds."
+          ],
+          "explanation": "MS alone has the same molecular mass for constitutional isomers; a bond-sensitive method helps."
+        },
+        {
+          "id": "q5",
+          "type": "worked-response",
+          "topic": "Solving from integrations and splitting",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "A compound with formula C₄H₉Cl gives one ¹H NMR signal integrating to 9H and it is a singlet. (a) Propose a structure. (b) Explain both the single signal and the absence of splitting; be explicit about which hydrogens are or are not within three bonds. (c) Predict whether its mass spectrum would show an M:M+2 pair closer to 3:1 or 1:1.",
+          "hints": [
+            "Nine equivalent H suggests three equivalent methyl groups.",
+            "A chlorine atom has a diagnostic two-isotope pattern."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.6 Number of unique signals in a ¹H NMR spectrum"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.12 (Covered in lecture) Spin–spin splitting and the n + 1 rule"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"
+            }
+          ],
+          "answer": "The structure is tert-butyl chloride, (CH₃)₃C–Cl. Three equivalent CH₃ groups give one 9H environment. The adjacent central carbon has no hydrogens, so n = 0 and the methyl signal is a singlet. One chlorine gives an M:M+2 pattern near 3:1.",
+          "rubric": [
+            "Proposes (CH₃)₃C–Cl.",
+            "Explains the single 9H signal by equivalence of three methyl groups.",
+            "Explains singlet as no adjacent central-carbon H.",
+            "Selects the one-chlorine 3:1 isotope pattern."
+          ],
+          "explanation": "Do not count chlorine as a proton neighbor in the n+1 rule."
+        },
+        {
+          "id": "q6",
+          "type": "worked-response",
+          "topic": "Intermolecular forces",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Consider pure NH₃ and PH₃. (a) Draw enough Lewis/VSEPR information to determine whether each molecule is polar. (b) Identify the strongest intermolecular force in each pure sample and decide which sample is held together more strongly. Your answer must distinguish a real hydrogen bond from an ordinary dipole interaction.",
+          "hints": [
+            "Both central atoms have three bonds and one lone pair.",
+            "For this course, hydrogen bonding requires H directly bonded to N, O, or F."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.1 Identify the IMFs that hold multiple copies of molecules together"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.3 Rank IMFs by strength"
+            }
+          ],
+          "answer": "Both NH₃ and PH₃ are trigonal pyramidal and polar because each has three bonds plus one lone pair. NH₃ has hydrogen bonding, since H is directly bonded to N; PH₃ does not meet the N/O/F requirement and is held mainly by weaker dipole–dipole and London interactions. NH₃ is held together more strongly.",
+          "rubric": [
+            "States trigonal pyramidal/polar for both.",
+            "Identifies NH₃ hydrogen bonding.",
+            "Does not incorrectly assign hydrogen bonding to PH₃.",
+            "Concludes NH₃ has stronger IMFs."
+          ],
+          "explanation": "A polar molecule need not hydrogen-bond; the atom bonded to H matters."
+        },
+        {
+          "id": "q7",
+          "type": "worked-response",
+          "topic": "Boiling and molecular shape",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Rank CH₄, CH₃OCH₃, CH₃CH₂OH, and H₂O from lowest to highest boiling point. Then compare n-pentane with neopentane: they have the same formula and London forces only, so explain why their boiling points can still differ.",
+          "hints": [
+            "First identify the strongest interaction available between copies of each molecule.",
+            "London dispersion depends on polarizability and contact surface, not just formula."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.3 Rank IMFs by strength"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.4 Impact of IMFs on solubility"
+            }
+          ],
+          "answer": "CH₄ < CH₃OCH₃ < CH₃CH₂OH < H₂O. Methane has only weak London forces; ether has dipole–dipole; ethanol hydrogen-bonds; water forms an especially extensive hydrogen-bond network. n-Pentane has a larger contact surface than compact neopentane, so its London dispersion interactions are stronger and its boiling point is higher.",
+          "rubric": [
+            "Gives the correct four-compound order.",
+            "Identifies the relevant IMF progression.",
+            "Explains n-pentane/neopentane using surface contact and London forces."
+          ],
+          "explanation": "Molecular shape changes how much temporary-dipole contact molecules can make."
+        },
+        {
+          "id": "q8",
+          "type": "worked-response",
+          "topic": "Reading a separation run",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A gas-chromatography run has a polar liquid stationary phase and helium carrier gas. Hexane and 1-butanol are injected. (a) Assign the analytes to the later and earlier peaks. (b) The first peak at 1.2 min is a methane marker; later peaks occur at 4.0 and 7.6 min. Calculate k for each later peak and state what a larger k means physically.",
+          "visual": {
+            "type": "plot",
+            "title": "Chromatogram",
+            "xLabel": "Time / min",
+            "yLabel": "Detector response",
+            "xDomain": [
+              0,
+              9
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": false,
+            "traces": [
+              {
+                "kind": "peaks",
+                "color": "#8c4a2f",
+                "points": [
+                  {
+                    "x": 1.2,
+                    "y": 35,
+                    "label": "1.2"
+                  },
+                  {
+                    "x": 4,
+                    "y": 70,
+                    "label": "4.0"
+                  },
+                  {
+                    "x": 7.6,
+                    "y": 100,
+                    "label": "7.6"
+                  }
+                ]
+              }
+            ],
+            "caption": "The 1.2-min methane marker defines the void time."
+          },
+          "hints": [
+            "Like interacts with like: compare each analyte to the polar stationary coating.",
+            "Use k = (tR − tm)/tm, with methane as tm."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5b Reading a chromatogram: t_R, t_m, and k"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5c Gas chromatography (GC)"
+            }
+          ],
+          "answer": "Hexane elutes earlier in polar-phase GC; 1-butanol interacts strongly with the polar stationary phase, including hydrogen bonding, and elutes later. For 4.0 min, k=(4.0−1.2)/1.2=2.33. For 7.6 min, k=(7.6−1.2)/1.2=5.33. The larger k means the analyte spends more time retained in the stationary phase relative to mobile-phase travel.",
+          "rubric": [
+            "Assigns hexane earlier and 1-butanol later in polar GC.",
+            "Calculates k = 2.33 and 5.33.",
+            "Interprets larger k as greater stationary-phase retention."
+          ],
+          "explanation": "The methane peak is the void-time marker, not a helium peak."
+        },
+        {
+          "id": "q9",
+          "type": "worked-response",
+          "topic": "Reversing the phases",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "The same two analytes from Question 8 are now run by reverse-phase HPLC with a nonpolar stationary phase and methanol/water mobile phase. (a) Predict which elutes first and rationalize using the phases, not a memorized order. (b) A polar analyte is retained too long. State one change to the mobile phase that decreases tR and explain why.",
+          "hints": [
+            "Ask which phase each analyte interacts with more strongly.",
+            "In this course setup, increasing water makes the mobile phase more polar."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5d High performance liquid chromatography (HPLC), reverse phase"
+            }
+          ],
+          "answer": "In reverse-phase HPLC, 1-butanol elutes first because it is more polar, interacts well with the polar methanol/water mobile phase, and is less retained by the nonpolar stationary phase. Hexane is retained longer by the nonpolar stationary phase. To shorten a polar analyte’s tR, increase the water fraction: the more polar mobile phase carries the polar analyte more strongly.",
+          "rubric": [
+            "Assigns polar 1-butanol first in reverse phase.",
+            "Uses the polarity of both phases to justify the order.",
+            "Increases water fraction and correctly connects it to lower retention."
+          ],
+          "explanation": "The order flips because the stationary phase changes from polar GC coating to nonpolar reverse-phase HPLC material."
+        },
+        {
+          "id": "q10",
+          "type": "worked-response",
+          "topic": "Phase is a competition",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "Water is liquid on Earth near 288 K, while methane is liquid on Titan near 94 K; water there is solid. Explain the outcomes by (a) identifying the dominant intermolecular forces for H₂O and CH₄ and (b) comparing those forces with thermal energy at each location. Do not answer as though “gas” or “liquid” is an intrinsic property of a substance.",
+          "hints": [
+            "Name the IMF, then explicitly discuss available thermal energy.",
+            "A lower temperature can let even weak attractions condense a substance."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.6 IMFs vs thermal energy: why phases differ (Lecture 10, Titan)"
+            }
+          ],
+          "answer": "H₂O has a strong hydrogen-bond network; CH₄ has only weak London dispersion. At Earth’s higher temperature, methane’s weak attractions lose to thermal motion and methane is gaseous, while water’s strong network can sustain a liquid. At Titan’s much lower temperature, even methane’s weak London forces can condense it, while water’s much stronger interactions dominate enough to make solid ice. Phase depends on IMF strength relative to thermal energy, not a permanent label.",
+          "rubric": [
+            "Identifies hydrogen bonding for water and London forces for methane.",
+            "Relates Earth’s and Titan’s temperatures to molecular kinetic/thermal energy.",
+            "Explains all stated phases as an IMF-versus-thermal-energy competition."
+          ],
+          "explanation": "The same molecule can occupy different phases at different temperatures."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-grind-03",
+      "course": "CHEM 042",
+      "title": "Midterm 1 grind 3 — mixed recall traps and synthesis",
+      "mode": "exam",
+      "generatedAt": "2026-09-22T01:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 55,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "Atoms, ions, and radicals",
+          "difficulty": 3,
+          "points": 5,
+          "prompt": "For each species, identify whether it is neutral or charged and whether it has an unpaired electron: Na⁺, NH₄⁺, Cl•, and [M]•⁺ formed when a molecule loses one electron in mass spectrometry. Then state the precise difference between an isotope pair and an ion pair of the same element.",
+          "hints": [
+            "Charge comes from unequal numbers of protons and electrons; a dot has a distinct meaning.",
+            "An isotope keeps the same atomic number."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.1 Define atoms, molecules, and atomic and molecular ions"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.2 Define and identify isotopes"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.7 Define radicals"
+            }
+          ],
+          "answer": "Na⁺ is charged but has no unpaired electron in its closed-shell ion. NH₄⁺ is charged and has no unpaired electron. Cl• is neutral and has one unpaired electron. [M]•⁺ is charged and has an unpaired electron: loss of one electron makes a radical cation. Isotopes are atoms of the same element with the same proton number but different neutron numbers/masses. Ions differ in electron number and therefore charge.",
+          "rubric": [
+            "Classifies charge and radical status for all four species.",
+            "Defines [M]•⁺ as a radical cation formed by electron loss.",
+            "Distinguishes isotope neutron/mass change from ion electron/charge change."
+          ],
+          "explanation": "The dot means an unpaired electron, not merely an electrical charge."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Weighted mass versus peaks",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Chlorine has isotope masses 34.969 and 36.966. Its average atomic mass is 35.45. (a) Calculate the fraction and percent of ³⁷Cl. (b) Explain why the average molecular mass of CH₂Cl₂ is not itself a single peak in its mass spectrum; name the three isotope-combination masses that produce the cluster.",
+          "hints": [
+            "Let y be the ³⁷Cl fraction and 1−y the ³⁵Cl fraction.",
+            "A mass spectrum records discrete isotope combinations, not a weighted mean."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.4 Calculate average atomic and molecular masses based on isotopic abundance"
+            }
+          ],
+          "answer": "34.969(1−y)+36.966y=35.45, so 1.997y=0.481 and y=0.241: about 24.1% ³⁷Cl and 75.9% ³⁵Cl. CH₂Cl₂ has discrete molecular-isotope masses 84 (³⁵Cl₂), 86 (³⁵Cl³⁷Cl), and 88 (³⁷Cl₂). Its average molecular mass is a weighted mean, so it is not one of those discrete molecular-ion masses/peaks.",
+          "rubric": [
+            "Sets up and solves the weighted-average equation to about 0.241.",
+            "Reports approximately 24% ³⁷Cl.",
+            "Names 84, 86, and 88 as the discrete CH₂Cl₂ isotope masses.",
+            "Explains why a weighted average is not an MS peak."
+          ],
+          "explanation": "A periodic-table average mass summarizes a population; MS resolves individual isotope combinations."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "Average bond energy calculation",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "Use these average bond dissociation energies: H–H 436 kJ/mol, F–F 155 kJ/mol, H–F 565 kJ/mol. (a) Calculate Δ = BDEHF − √(BDEHH×BDEFF). (b) Use Δχ = 0.102√Δ to estimate the electronegativity difference. (c) Explain why breaking an H–F bond has positive ΔH but forming it has negative ΔH.",
+          "hints": [
+            "Keep Δ in kJ/mol before applying the 0.102 relationship.",
+            "Bond breaking and bond forming have opposite energy directions."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.8 Define bond dissociation energies and use them to evaluate bond strength"
+            }
+          ],
+          "answer": "√(436×155)=√67580=260.0 kJ/mol. Δ=565−260=305 kJ/mol. Δχ=0.102√305=0.102(17.46)=1.78. Breaking H–F requires energy to overcome the attractive bond, so ΔH>0. Bond formation creates that attraction and releases energy, so ΔH<0.",
+          "rubric": [
+            "Calculates the geometric mean near 260 and Δ near 305 kJ/mol.",
+            "Obtains Δχ about 1.78.",
+            "Correctly assigns positive ΔH to breaking and negative ΔH to forming with an energy explanation."
+          ],
+          "explanation": "BDE is defined for homolytic bond breaking in the gas phase."
+        },
+        {
+          "id": "q4",
+          "type": "worked-response",
+          "topic": "Formula from high-mass evidence",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A hydrocarbon’s highest-mass peaks are m/z 70 (100 relative abundance) and 71 (5.5 relative abundance). (a) Identify which peak is the molecular ion and estimate the number of carbon atoms from the second peak. (b) Propose a chemically valid hydrocarbon formula with molecular mass 70 and calculate its degree of unsaturation. (c) State one structural class consistent with the result.",
+          "visual": {
+            "type": "plot",
+            "title": "Highest-mass hydrocarbon peaks",
+            "xLabel": "m/z",
+            "yLabel": "Relative abundance",
+            "xDomain": [
+              67,
+              74
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": false,
+            "traces": [
+              {
+                "kind": "peaks",
+                "color": "#9b4e35",
+                "points": [
+                  {
+                    "x": 70,
+                    "y": 100,
+                    "label": "70"
+                  },
+                  {
+                    "x": 71,
+                    "y": 5.5,
+                    "label": "71"
+                  }
+                ]
+              }
+            ],
+            "caption": "No halogen isotope cluster is observed in this high-mass region."
+          },
+          "hints": [
+            "For a hydrocarbon, M+1 is mostly from one ¹³C; use roughly 1.1% per carbon.",
+            "Check that H does not exceed 2C+2."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.2 Calculate and interpret degrees of unsaturation (DoU)"
+            }
+          ],
+          "answer": "m/z 70 is M and 71 is M+1. The M+1/M ratio is 5.5%, so carbon count is about 5. Formula C₅H₁₀ has mass 70 and is chemically valid. DoU=(2(5)+2−10)/2=1. It could be an alkene or a cycloalkane; the spectrum alone does not choose between those structural classes.",
+          "rubric": [
+            "Identifies 70 as M and 71 as M+1.",
+            "Uses 1.1% per carbon to estimate five carbons.",
+            "Proposes C₅H₁₀ and calculates DoU=1.",
+            "Names an alkene or cycloalkane and avoids treating the formula as a unique structure."
+          ],
+          "explanation": "An M+1 peak estimates carbon count; it does not fully determine connectivity."
+        },
+        {
+          "id": "q5",
+          "type": "worked-response",
+          "topic": "Dipole direction and percentage ionic character",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "For HCl, μ = 1.08 D and R = 1.27 Å. (a) Draw the course-convention bond-dipole arrow and label δ+ and δ−. (b) Calculate the partial charge fraction using δ = μ(3.336×10⁻²⁰)/(1.602×10⁻¹⁹R). (c) Explain why this result does not make HCl an ionic compound with full ±1 charges.",
+          "hints": [
+            "The course arrow runs from δ+ toward the more electronegative atom.",
+            "A fraction such as 0.18 is a partial charge, not a count of electrons transferred."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.7 Describe differences between ionic, nonpolar covalent, and polar covalent bonds"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.10 Draw and identify the direction and relative magnitude of bond dipoles"
+            }
+          ],
+          "answer": "The arrow is Hδ+ → Clδ−. δ=(1.08×3.336×10⁻²⁰)/(1.602×10⁻¹⁹×1.27)=3.60×10⁻²⁰/2.03×10⁻¹⁹≈0.18, or about 18% ionic character. This is partial charge from unequal sharing, not transfer of a full electron to make H⁺ and Cl⁻; HCl is polar covalent.",
+          "rubric": [
+            "Points the bond dipole from H toward Cl and labels partial charges.",
+            "Calculates δ≈0.18.",
+            "Interprets it as partial ionic character rather than full ionic charge."
+          ],
+          "explanation": "The course dipole-arrow convention runs from δ+ to δ−."
+        },
+        {
+          "id": "q6",
+          "type": "worked-response",
+          "topic": "Functional-group elimination",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "An unknown organic compound has a very broad absorption spanning roughly 2500–3300 cm⁻¹, a strong sharp absorption near 1710 cm⁻¹, and a strong feature in the 1000–1300 cm⁻¹ region. (a) Identify the most supported functional-group class. (b) Explain why an ester is a weaker answer despite also having C=O and C–O. (c) State how the shape of the broad feature relates to intermolecular interactions.",
+          "hints": [
+            "Use all three observations together.",
+            "Compare which candidate contains an O–H bond."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.14 Interpret an IR spectrum to identify functional groups"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "2.4 Explain the axes and data points on an IR spectrum"
+            }
+          ],
+          "answer": "The best-supported class is a carboxylic acid: very broad acid O–H plus C=O and C–O. An ester has C=O and C–O but no O–H, so it cannot explain the exceptionally broad 2500–3300 cm⁻¹ feature. Hydrogen bonding makes each acid O–H experience a slightly different environment, broadening the band.",
+          "rubric": [
+            "Identifies carboxylic acid.",
+            "Uses all three observed regions as support.",
+            "Rules out ester specifically by its missing O–H.",
+            "Links broadness to hydrogen-bonded environments."
+          ],
+          "explanation": "IR identification is strongest when multiple features agree and incompatible alternatives are eliminated."
+        },
+        {
+          "id": "q7",
+          "type": "worked-response",
+          "topic": "NMR signal versus split lines",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "A student says “n + 1 tells me the number of NMR signals.” Correct this statement. Then, for (CH₃)₂CHBr, (a) predict the number of unique proton environments and their integrations, and (b) predict the splitting of the methyl environment and the methine environment using the course n + 1 rule.",
+          "hints": [
+            "First use symmetry to count environments; only then apply splitting within each environment.",
+            "The methyl groups are equivalent, and each one is adjacent to the one methine H."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.4 Equivalent hydrogens by reflectional or rotational symmetry"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.6 Number of unique signals in a ¹H NMR spectrum"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.12 (Covered in lecture) Spin–spin splitting and the n + 1 rule"
+            }
+          ],
+          "answer": "n+1 gives the number of split lines within one signal, based on neighboring H; it does not count distinct environments/signals. (CH₃)₂CHBr has two environments: equivalent methyl H (6H) and one methine H (1H). Each methyl signal is a doublet from the one neighboring methine H. The methine signal is a septet from six equivalent neighboring methyl H.",
+          "rubric": [
+            "Corrects signal counting versus split-line counting.",
+            "Gives two environments with 6H and 1H integration.",
+            "Gives methyl doublet and methine septet with correct neighbor counts."
+          ],
+          "explanation": "Symmetry is used before n+1; all six methyl hydrogens are equivalent neighbors of the methine proton."
+        },
+        {
+          "id": "q8",
+          "type": "worked-response",
+          "topic": "Shielding by induction",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "Rank the three proton environments in CH₃–CH₂–CH₂–F from highest to lowest chemical shift: the CH₂ attached to F, the middle CH₂, and the terminal CH₃. Then explain how the effect changes with bond distance and why lower electron density changes the field felt by a proton.",
+          "visual": {
+            "type": "diagram",
+            "title": "Inductive distance",
+            "nodes": [
+              {
+                "id": "a",
+                "label": "CH₃",
+                "x": 12,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "b",
+                "label": "CH₂",
+                "x": 36,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "c",
+                "label": "CH₂",
+                "x": 60,
+                "y": 50,
+                "shape": "box"
+              },
+              {
+                "id": "d",
+                "label": "F",
+                "x": 88,
+                "y": 50,
+                "shape": "circle"
+              }
+            ],
+            "edges": [
+              {
+                "from": "a",
+                "to": "b",
+                "label": ""
+              },
+              {
+                "from": "b",
+                "to": "c",
+                "label": ""
+              },
+              {
+                "from": "c",
+                "to": "d",
+                "label": ""
+              }
+            ],
+            "caption": "Compare proton environments by their distance from the electronegative atom."
+          },
+          "hints": [
+            "The nearest H environment receives the strongest inductive withdrawal.",
+            "Shielding is caused by electron circulation opposing the external field."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.7 Explain how electronegative atoms introduce induction"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.10 Use induction to determine how exposed an H nucleus is to the external magnet"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.11 Compare ¹H nuclei and predict which resonates at higher/lower frequency"
+            }
+          ],
+          "answer": "Highest to lowest chemical shift: CH₂F > middle CH₂ > terminal CH₃. F withdraws electron density inductively; the effect weakens through successive σ bonds. The CH₂ nearest F is least shielded, so it feels more of the external field and resonates farther downfield/higher ppm. More distant environments retain more shielding.",
+          "rubric": [
+            "Ranks CH₂F, middle CH₂, CH₃ in the correct order.",
+            "States induction decreases with distance.",
+            "Connects withdrawal to less shielding and higher ppm."
+          ],
+          "explanation": "Chemical shift is about the local electronic environment rather than simply the number of hydrogens."
+        },
+        {
+          "id": "q9",
+          "type": "worked-response",
+          "topic": "Solubility and separation choice",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "1-Octanol is mixed separately with water and with hexane. (a) Predict which liquid dissolves more 1-octanol and justify using the dominant parts of the molecule and intermolecular forces. (b) A volatile mixture contains hexane and 1-butanol. Choose between GC and reverse-phase HPLC if the goal is to use a polar stationary phase, and state which compound exits first in that chosen method.",
+          "hints": [
+            "Consider whether one end of a molecule outweighs the other in its interactions.",
+            "The question specifies a polar stationary phase; recall which course method has that setup."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.4 Impact of IMFs on solubility"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "4.5c Gas chromatography (GC)"
+            }
+          ],
+          "answer": "1-Octanol is more soluble in hexane: although its OH can hydrogen-bond with water, the long eight-carbon nonpolar tail dominates and has strong London compatibility with hexane. Choose GC because it has a polar liquid stationary phase and a gas carrier; hexane exits first because it has much weaker affinity for that polar phase than 1-butanol.",
+          "rubric": [
+            "Selects hexane for greater 1-octanol solubility and explains the dominant long tail.",
+            "Chooses GC for the specified polar stationary phase.",
+            "Assigns hexane as earlier eluting and justifies using phase affinity."
+          ],
+          "explanation": "Like-with-like should be applied to the dominant features of both analyte and phase."
+        },
+        {
+          "id": "q10",
+          "type": "worked-response",
+          "topic": "Whole-unit unknown workflow",
+          "difficulty": 5,
+          "points": 8,
+          "prompt": "An unknown gives an M:M+2 pair in a 1:1 ratio at m/z 122 and 124, a strong mass-spectral fragment at m/z 43, and an IR spectrum with no broad O–H or C=O absorption. (a) State the first structural conclusion from the high-mass pair and propose a formula consistent with the 122 peak and the m/z 43 fragment. (b) Explain why m/z 43 is chemically plausible. (c) Name the next measurement from this unit that would most directly tell you how many distinct hydrogen environments the proposed molecule has, and list the three evidence types you would read from that measurement.",
+          "hints": [
+            "Start from the isotope pattern before trying formulas.",
+            "One halogen’s mass and a common alkyl cation can account for the key numbers."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.9 Predict simple fragmentation patterns for hydrocarbons and halogenated hydrocarbons"
+            },
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "3.6 Number of unique signals in a ¹H NMR spectrum"
+            }
+          ],
+          "answer": "A 1:1 M:M+2 pair indicates one Br. C₃H₇Br fits M=122 for ⁷⁹Br (36+7+79=122), and m/z 43 is C₃H₇⁺ after loss of Br. The C–Br bond is weak, so this fragmentation is plausible; only the charged alkyl fragment is observed. ¹H NMR is the next measurement: read number of signals (environments/symmetry), chemical shift (induction/shielding), integration (H count), and splitting (neighbors).",
+          "rubric": [
+            "Identifies one bromine from 1:1 M:M+2.",
+            "Proposes C₃H₇Br and checks mass 122.",
+            "Assigns m/z 43 as C₃H₇⁺ and relates it to weak C–Br cleavage.",
+            "Chooses ¹H NMR and names signal count, shift, integration, and splitting evidence."
+          ],
+          "explanation": "This follows the course pipeline: isotope evidence narrows formula, fragmentation supports a weak bond, and NMR tests environments/connectivity."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-exam-demo",
+      "course": "CHEM 042",
+      "title": "Midterm 1 mixed practice",
+      "mode": "exam",
+      "generatedAt": "2026-09-21T12:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 20,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "Mass spectrometry",
+          "difficulty": 4,
+          "points": 5,
+          "prompt": "An unknown compound has molecular-ion peaks at m/z 156 and 158 with approximately equal intensity. Explain what this pattern indicates, then state what additional evidence you would use to distinguish the molecular ion from a fragment peak.",
+          "visual": {
+            "type": "plot",
+            "title": "Molecular-ion region",
+            "xLabel": "m/z",
+            "yLabel": "Relative abundance",
+            "xDomain": [
+              154,
+              160
+            ],
+            "yDomain": [
+              0,
+              100
+            ],
+            "reverseX": false,
+            "traces": [
+              {
+                "kind": "peaks",
+                "color": "#9b4e35",
+                "points": [
+                  {
+                    "x": 156,
+                    "y": 100,
+                    "label": "156"
+                  },
+                  {
+                    "x": 158,
+                    "y": 98,
+                    "label": "158"
+                  }
+                ]
+              }
+            ],
+            "caption": "Only the highest-mass region of the spectrum is shown."
+          },
+          "hints": [
+            "Focus on the element whose two common isotopes occur in an approximately 1:1 ratio."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"
+            }
+          ],
+          "answer": "The approximately 1:1 M:M+2 pattern indicates one bromine atom because 79Br and 81Br occur at nearly equal natural abundance. To support the molecular-ion assignment, identify the highest-mass isotope cluster and check whether lower-mass peaks can be explained as chemically plausible fragment losses; only charged fragments are detected.",
+          "rubric": [
+            "Identifies bromine from the 1:1 M:M+2 pattern.",
+            "States that the pair should be part of the highest-mass molecular-ion cluster.",
+            "Uses plausible fragment losses or isotope-cluster context as supporting evidence."
+          ],
+          "explanation": "A single chlorine would instead give an approximately 3:1 M:M+2 pair. The pattern identifies the isotope signature, while the spectrum context determines whether the cluster is the intact molecular ion."
+        },
+        {
+          "id": "q2",
+          "type": "multiple-choice",
+          "topic": "Lewis structures",
+          "difficulty": 3,
+          "points": 2,
+          "prompt": "Which arrangement gives both oxygen atoms in an ester neutral formal charges?",
+          "choices": [
+            "C–O–O–C",
+            "C(=O)–O–C",
+            "C–O=C–C",
+            "C(–O)–O–C with three single bonds on each oxygen"
+          ],
+          "hints": [
+            "Compare each oxygen with its usual neutral pattern: two bonds and two lone pairs."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.6 Draw and evaluate Lewis structures"
+            }
+          ],
+          "answer": "C(=O)–O–C",
+          "rubric": [
+            "Selects C(=O)–O–C.",
+            "Can explain that the carbonyl oxygen has a double bond and the bridging oxygen has two single bonds."
+          ],
+          "explanation": "Both oxygen atoms then have two bonds and two lone pairs, giving each a formal charge of zero."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "Isotopic abundance",
+          "difficulty": 3,
+          "points": 4,
+          "prompt": "An element has isotopes of mass 10.013 at 19.9% abundance and 11.009 at 80.1% abundance. Calculate its average atomic mass and show the weighted-average setup.",
+          "hints": [
+            "Convert each percentage to a decimal before multiplying by its isotope mass."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.4 Calculate average atomic and molecular masses based on isotopic abundance"
+            }
+          ],
+          "answer": "(10.013 × 0.199) + (11.009 × 0.801) = 10.81 u, to two decimal places.",
+          "rubric": [
+            "Converts 19.9% and 80.1% to 0.199 and 0.801.",
+            "Multiplies each isotope mass by its fractional abundance.",
+            "Adds the contributions and reports approximately 10.81 u."
+          ],
+          "explanation": "Average atomic mass is a weighted mean, so the more abundant isotope contributes more strongly to the result."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-fundamentals-demo",
+      "course": "CHEM 042",
+      "title": "Midterm 1 fundamentals",
+      "mode": "fundamentals",
+      "generatedAt": "2026-09-21T11:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 8,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "short-answer",
+          "topic": "Definitions",
+          "difficulty": 1,
+          "points": 2,
+          "prompt": "Define an isotope precisely. Your definition must state what stays the same and what changes.",
+          "hints": [
+            "Think in terms of protons and neutrons."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.2 Define and identify isotopes"
+            }
+          ],
+          "answer": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons, and therefore different mass numbers.",
+          "rubric": [
+            "Says they are atoms of the same element.",
+            "States that proton number stays the same.",
+            "States that neutron number changes."
+          ],
+          "explanation": "The shared proton number is what makes the atoms the same element; the different neutron count changes their mass."
+        },
+        {
+          "id": "q2",
+          "type": "short-answer",
+          "topic": "Mass spectrometry",
+          "difficulty": 1,
+          "points": 2,
+          "prompt": "What is the base peak in a mass spectrum, and why is it not automatically the molecular-ion peak?",
+          "hints": [
+            "The vertical axis represents relative abundance."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.3 Explain the fundamental principles of how mass spectrometry works"
+            }
+          ],
+          "answer": "The base peak is the tallest peak and is assigned 100% relative abundance. It may be a particularly stable or abundant charged fragment rather than the intact molecular ion.",
+          "rubric": [
+            "Defines the base peak as the tallest or most abundant detected ion peak.",
+            "Notes that it is normalized to 100% relative abundance.",
+            "Explains that a fragment can be more abundant than the intact molecular ion."
+          ],
+          "explanation": "Peak height reports ion abundance, not whether an ion is the original whole molecule."
+        }
+      ]
+    },
+    {
+      "id": "chem042-midterm1-weak-spots-demo",
+      "course": "CHEM 042",
+      "title": "Midterm 1 weak spots",
+      "mode": "weak-spots",
+      "generatedAt": "2026-09-21T10:00:00-07:00",
+      "examDate": "2026-09-24",
+      "estimatedMinutes": 10,
+      "sources": [
+        "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "short-answer",
+          "topic": "Radicals",
+          "difficulty": 2,
+          "points": 3,
+          "prompt": "Distinguish a lone pair from an unpaired electron, then explain which one makes a species a radical.",
+          "hints": [
+            "A pair contains two electrons; a radical is defined by what is not paired."
+          ],
+          "weakSpotEvidence": "The overview records a correction from “loose electrons” to the precise term “unpaired electrons,” and warns not to confuse this with a lone pair.",
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.7 Define radicals"
+            }
+          ],
+          "answer": "A lone pair is a pair of two non-bonding electrons. An unpaired electron is a single electron without a partner in the same orbital. A species with one or more unpaired electrons is a radical.",
+          "rubric": [
+            "Defines a lone pair as two non-bonding electrons.",
+            "Defines an unpaired electron as a single electron without a partner.",
+            "Identifies the unpaired electron, not a lone pair, as the defining feature of a radical."
+          ],
+          "explanation": "The distinction matters in Lewis structures and in mass spectrometry, where the molecular ion can be both a radical and a cation."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Mass spectrometry",
+          "difficulty": 3,
+          "points": 4,
+          "prompt": "Explain why a neutral fragment formed during mass-spectrometric fragmentation does not appear as its own peak, and describe how its existence can still be inferred.",
+          "hints": [
+            "What does the detector actually respond to?"
+          ],
+          "weakSpotEvidence": "The overview explicitly flags that neutral fragments are invisible and must be inferred from mass differences—a detail that was missing from the earlier explanation.",
+          "sourceRefs": [
+            {
+              "file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md",
+              "heading": "1.3 Explain the fundamental principles of how mass spectrometry works"
+            }
+          ],
+          "answer": "The detector responds to ions, so a neutral fragment is not deflected and counted as a detected m/z peak. Its mass can still be inferred from the difference between the parent-ion mass and the charged-fragment mass.",
+          "rubric": [
+            "States that only charged species are detected.",
+            "Explains that the neutral piece therefore has no direct peak.",
+            "Uses the mass difference between parent and charged fragment to infer the neutral loss."
+          ],
+          "explanation": "A fragmentation event commonly produces one charged fragment and one neutral radical; only the charged member of that pair is visible to the detector."
+        }
+      ]
+    },
+    {
+      "id": "phys023-special-relativity-revision",
+      "course": "PHYS 023",
+      "title": "Special Relativity — Independent Exam Practice",
+      "mode": "exam",
+      "generatedAt": "2026-09-21T00:00:00-07:00",
+      "estimatedMinutes": 65,
+      "sources": [
+        "Courses/PHYS 023 - Special Relativity/Lectures/lecture 2 - sep 11.md",
+        "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+        "Courses/PHYS 023 - Special Relativity/Assignments/mid term review.md"
+      ],
+      "questions": [
+        {
+          "id": "q1",
+          "type": "worked-response",
+          "topic": "Platform distance",
+          "difficulty": 3,
+          "points": 4,
+          "prompt": "The distance between the ends of a platform, measured by observers riding on it, is D₀ = 30 c · hr. The platform moves at V = ⅗c relative to S.\n\n(a) What distance does S measure between its ends?\n(b) Which observers measure D₀?\n(c) Explain why the S observer must measure both endpoint positions at one S-time.",
+          "hints": [
+            "For V = ⅗c, √(1 − V² ⁄ c²) = ⅘."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 2 - sep 11.md",
+              "heading": "Deriving the offset t₂-t₁"
+            }
+          ],
+          "answer": "(a) D = D₀√(1 − V² ⁄ c²) = (30 c · hr)(⅘) = 24 c · hr.\n\n(b) D₀ = 30 c · hr is proper length because it is measured in the platform's rest frame.\n\n(c) A length measurement requires the two endpoint positions at one time in the measuring frame; otherwise the moving endpoints are compared at different times.",
+          "rubric": [
+            "Finds 24 c · hr.",
+            "Identifies D₀ as the proper length.",
+            "States the same-time requirement for a length measurement."
+          ],
+          "explanation": "The platform is at rest only in its own frame, so its full 30 c · hr length is measured there."
+        },
+        {
+          "id": "q2",
+          "type": "worked-response",
+          "topic": "Clock readings",
+          "difficulty": 4,
+          "points": 5,
+          "prompt": "Two clocks are synchronized in their mutual rest frame S′ and are 40 c · hr apart along x′. S′ moves in +x at V = ⅗c relative to S. At an S-simultaneous pair of events, the rear clock reads 0 hr.\n\n(a) Find the difference between the two readings.\n(b) What does the front clock read?\n(c) Explain why this does not mean the clocks failed to synchronize in S′.",
+          "hints": [
+            "Compare the front and rear readings at a single S-time."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 2 - sep 11.md",
+              "heading": "Leading clocks lag"
+            }
+          ],
+          "answer": "(a) Offset = D₀V ⁄ c² = (40 c · hr)(⅗c) ⁄ c² = 24 hr.\n\n(b) B is the leading clock, so it lags: B reads −24 hr.\n\n(c) No. The clocks are synchronized in S′, but S uses a different simultaneity slice to compare their readings.",
+          "rubric": [
+            "Calculates 24 hr.",
+            "Gives B = −24 hr.",
+            "Explains the frame dependence of simultaneous clock comparisons."
+          ],
+          "explanation": "Leading clocks lag when viewed on an S-simultaneous slice."
+        },
+        {
+          "id": "q3",
+          "type": "worked-response",
+          "topic": "One clock, two events",
+          "difficulty": 3,
+          "points": 4,
+          "prompt": "A clock is attached to a probe. It emits a ping and, 8 hr later on its own clock, records a reply at the same detector. The probe moves at V = ⅗c relative to S.\n\n(a) Which time interval is measured by a single clock, and why?\n(b) What elapsed time does S assign between the two events?\n(c) State which clock is physically present at both events.",
+          "hints": [
+            "First identify where the two events occur in the probe's frame."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Proper time and the setup"
+            }
+          ],
+          "answer": "(a) The probe's 8 hr interval is proper time because both events occur at the detector fixed to the probe.\n\n(b) Δt = γΔt′ = (5⁄4)(8 hr) = 10 hr.\n\n(c) The detector's clock is physically present at both events.",
+          "rubric": [
+            "Identifies the 8 hr interval as proper time.",
+            "Calculates 10 hr in S.",
+            "Names the probe detector as the clock at both events."
+          ],
+          "explanation": "A moving observer sees the probe clock's elapsed time dilated."
+        },
+        {
+          "id": "q4",
+          "type": "worked-response",
+          "topic": "Two event measurements",
+          "difficulty": 4,
+          "points": 6,
+          "prompt": "S′ moves at V = ⅗c relative to S. For two events, S′ measures Δt′ = 4 hr and Δx′ = 15 c · hr.\n\n(a) Calculate Δt in S.\n(b) Calculate Δx in S.\n(c) Explain why the VΔx′ ⁄ c² part of the time equation cannot be dropped here.",
+          "hints": [
+            "Both the time and x separations in S′ are nonzero."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Deriving the time transformation"
+            },
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Deriving the space transformation"
+            }
+          ],
+          "answer": "(a) Δt = γ(Δt′ + VΔx′ ⁄ c²) = (5⁄4)[4 hr + (⅗c)(15 c · hr) ⁄ c²] = 65⁄4 hr.\n\n(b) Δx = γ(Δx′ + VΔt′) = (5⁄4)[15 c · hr + (⅗c)(4 hr)] = 87⁄4 c · hr.\n\n(c) VΔx′ ⁄ c² is the relativity-of-simultaneity term: separated events in S′ affect the time interval assigned in S.",
+          "rubric": [
+            "Gets Δt = 65⁄4 hr.",
+            "Gets Δx = 87⁄4 c · hr.",
+            "Explains the VΔx′ ⁄ c² term."
+          ],
+          "explanation": "Neither transformed term can be dropped because both Δt′ and Δx′ are nonzero."
+        },
+        {
+          "id": "q5",
+          "type": "worked-response",
+          "topic": "Two flashes",
+          "difficulty": 4,
+          "points": 5,
+          "prompt": "In S′, two flashes occur at the same S′-time at points 16 c · hr apart along +x′. S′ moves at V = ⅗c relative to S.\n\n(a) Find Δt in S.\n(b) Find Δx in S.\n(c) Which flash occurs later in S: the one at larger x′ or smaller x′? Explain from the sign of Δt.",
+          "hints": [
+            "Start from Δt′ = 0."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Back to the rhino"
+            }
+          ],
+          "answer": "(a) Δt = γ(VΔx′ ⁄ c²) = (5⁄4)(⅗c)(16 c · hr) ⁄ c² = 12 hr.\n\n(b) Δx = γΔx′ = (5⁄4)(16 c · hr) = 20 c · hr.\n\n(c) Taking Δx′ as positive from the smaller-x′ flash to the larger-x′ flash gives Δt > 0, so the larger-x′ flash occurs later in S.",
+          "rubric": [
+            "Uses Δt′ = 0.",
+            "Calculates Δt = 12 hr.",
+            "Calculates Δx = 20 c · hr.",
+            "Interprets the positive Δt correctly."
+          ],
+          "explanation": "Events simultaneous in S′ need not be simultaneous in S when separated along x′."
+        },
+        {
+          "id": "q6",
+          "type": "worked-response",
+          "topic": "Motion along x",
+          "difficulty": 4,
+          "points": 4,
+          "prompt": "An object has v′ₓ = −⅘c in S′. Frame S′ moves at V = ⅗c relative to S.\n\n(a) Calculate vₓ in S.\n(b) Interpret the negative sign.\n(c) Explain why ordinary addition of −⅘c and ⅗c is not the right method.",
+          "hints": [
+            "Write down the object's velocity in S′ and the motion of S′ before calculating."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Earth, A and B"
+            }
+          ],
+          "answer": "(a) vₓ = (−⅘c + ⅗c) ⁄ [1 + (⅗c)(−⅘c) ⁄ c²] = (−⅕c) ⁄ (13⁄25) = −5⁄13c.\n\n(b) The object moves in the −x direction in S.\n\n(c) Relativistic velocity transformation, not ordinary addition, preserves the correct relativistic kinematics and prevents speeds from exceeding c.",
+          "rubric": [
+            "Calculates −5⁄13c.",
+            "Interprets the negative direction.",
+            "Names the relativistic velocity transformation as necessary."
+          ],
+          "explanation": "The denominator changes the result substantially from the Galilean estimate."
+        },
+        {
+          "id": "q7",
+          "type": "worked-response",
+          "topic": "Motion in two directions",
+          "difficulty": 5,
+          "points": 6,
+          "prompt": "An object has v′ₓ = −½c and v′ᵧ = ¾c in S′. Frame S′ moves at V = ⅗c relative to S.\n\n(a) Find vₓ and vᵧ in S.\n(b) Find the speed |v| in S.\n(c) State the quadrant of the motion in S.",
+          "hints": [
+            "Find the shared denominator before calculating the two components."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Velocity transformation"
+            }
+          ],
+          "answer": "(a) Denominator = 1 + (⅗)(−½) = 7⁄10.\nvₓ = (−½c + ⅗c) ⁄ (7⁄10) = c⁄7.\nvᵧ = (¾c)(⅘) ⁄ (7⁄10) = 6⁄7c.\n\n(b) |v| = √[(c⁄7)² + (6c⁄7)²] = √37⁄7 c.\n\n(c) Both components are positive, so the motion is in the +x, +y quadrant.",
+          "rubric": [
+            "Uses denominator 7⁄10.",
+            "Finds vₓ = c⁄7 and vᵧ = 6⁄7c.",
+            "Calculates √37⁄7 c.",
+            "Identifies the +x, +y quadrant."
+          ],
+          "explanation": "The transverse component shares the same velocity-addition denominator as the longitudinal component."
+        },
+        {
+          "id": "q8",
+          "type": "multiple-choice",
+          "topic": "Frame labels",
+          "difficulty": 3,
+          "points": 3,
+          "prompt": "Observer R says: ‘I see observer Q moving in the +x direction.’ A particle's velocity is then reported by Q. Which setup is correct?",
+          "choices": [
+            "Use R as S, Q as S′, and use Q's particle velocity as v′.",
+            "Use R as S′, Q as S, and use Q's particle velocity as v.",
+            "Use either assignment without changing signs or labels.",
+            "The frames cannot be assigned until the particle's speed is known."
+          ],
+          "hints": [
+            "Decide which observer sees the other moving in +x."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "How to use the velocity transformation"
+            }
+          ],
+          "answer": "Use R as S, Q as S′, and use Q's particle velocity as v′.",
+          "rubric": [
+            "Selects the first choice.",
+            "Can state that S is where the other observer moves in +x."
+          ],
+          "explanation": "Frame labels and velocity signs must be chosen before substituting into a transformation."
+        },
+        {
+          "id": "q9",
+          "type": "worked-response",
+          "topic": "Signal between stations",
+          "difficulty": 5,
+          "points": 6,
+          "prompt": "A and C are fixed to a platform moving at V = ⅗c in +x relative to S. At one instant in S, C is 15 c · hr directly above A. A emits a light flash toward C.\n\n(a) Find the light's vₓ and vᵧ in S.\n(b) Find the S-time until C receives it.\n(c) What reading does C's clock show at reception, and why is that different from part (b)?",
+          "hints": [
+            "The signal must remain horizontally aligned with C while crossing the vertical gap."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 2 - sep 11.md",
+              "heading": "Synchronising clocks with a central beacon"
+            },
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Proper time and the setup"
+            }
+          ],
+          "answer": "(a) vₓ = ⅗c and vᵧ = ⅘c.\n\n(b) Δt = (15 c · hr) ⁄ (⅘c) = 75⁄4 hr.\n\n(c) C's synchronized platform clock reads 15 hr at reception. The S interval is longer because S sees the platform clocks time-dilated; equivalently, Δt = γΔt′ when Δx′ = 0.",
+          "rubric": [
+            "Finds vₓ = ⅗c and vᵧ = ⅘c.",
+            "Calculates 75⁄4 hr in S.",
+            "Gives 15 hr for C's clock and explains the difference."
+          ],
+          "explanation": "The horizontal component keeps the light aligned with C while the vertical component crosses the gap."
+        },
+        {
+          "id": "q10",
+          "type": "worked-response",
+          "topic": "Sensor-to-sensor trip",
+          "difficulty": 5,
+          "points": 7,
+          "prompt": "A craft moves at V = ⅗c relative to S. In the craft's rest frame S′, a particle leaves sensor A and travels +x at v′ₓ = ¾c to sensor B, which is 10 c · hr ahead.\n\n(a) Find the travel time in S′.\n(b) Find the particle's speed in S.\n(c) Find Δt and Δx in S.\n(d) Explain why the start and end events are not simultaneous in either frame.",
+          "hints": [
+            "Start with the particle's travel time in the craft frame."
+          ],
+          "sourceRefs": [
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Velocity transformation"
+            },
+            {
+              "file": "Courses/PHYS 023 - Special Relativity/Lectures/lecture 3 - sep 18.md",
+              "heading": "Deriving the space transformation"
+            }
+          ],
+          "answer": "(a) Δt′ = (10 c · hr) ⁄ (¾c) = 40⁄3 hr.\n\n(b) vₓ = (¾c + ⅗c) ⁄ [1 + (¾)(⅗)] = (27⁄20)c ⁄ (29⁄20) = 27⁄29c.\n\n(c) Δt = (5⁄4)[40⁄3 hr + (⅗c)(10 c · hr) ⁄ c²] = 145⁄6 hr.\nΔx = (5⁄4)[10 c · hr + (⅗c)(40⁄3 hr)] = 45⁄2 c · hr.\n\n(d) They are not simultaneous because Δt′ = 40⁄3 hr and Δt = 145⁄6 hr are both nonzero.",
+          "rubric": [
+            "Finds Δt′ = 40⁄3 hr.",
+            "Calculates vₓ = 27⁄29c.",
+            "Finds Δt = 145⁄6 hr and Δx = 45⁄2 c · hr.",
+            "Correctly rules out simultaneity in both frames."
+          ],
+          "explanation": "This combines travel time, velocity addition, and Lorentz transformations in one self-contained question."
+        }
+      ]
+    }
+  ]
+}

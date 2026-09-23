@@ -1,0 +1,81 @@
+{
+  "id": "chem042-midterm1-imf-bank",
+  "course": "CHEM 042",
+  "title": "Midterm 1 IMF worksheet bank",
+  "mode": "exam",
+  "generatedAt": "2026-09-22T01:15:00-07:00",
+  "examDate": "2026-09-24",
+  "estimatedMinutes": 60,
+  "sources": ["Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"],
+  "questions": [
+    {
+      "id":"q1","type":"worked-response","topic":"A polar-column separation","difficulty":4,"points":7,
+      "prompt":"A quality-control lab separates a volatile mixture of propanone, 1-propanol, and hexane by GC. Helium is the mobile phase and the stationary liquid coating is polar.\n\n(a) Complete the comparison: for each analyte, identify its strongest IMF with itself and its expected affinity for the stationary phase.\n(b) Rank the analytes from smallest to largest retention factor k. Explain the ranking as a competition between analyte–stationary and analyte–mobile interactions.",
+      "visual":{"type":"table","title":"Analytes and polar GC setup","columns":["Analyte","Condensed structure","Stationary phase"],"rows":[["propanone","CH₃–C(=O)–CH₃","polar liquid coating"],["1-propanol","CH₃CH₂CH₂–OH","polar liquid coating"],["hexane","CH₃(CH₂)₄CH₃","polar liquid coating"]],"caption":"Helium carries the vaporized analytes through the column."},
+      "hints":["Decide whether each molecule can donate a hydrogen bond to itself before ranking its polarity.","Greater attraction to the stationary phase gives larger k."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.1 Identify the IMFs that hold multiple copies of molecules together"},{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.5c Gas chromatography (GC)"}]
+    },
+    {
+      "id":"q2","type":"worked-response","topic":"Interactions in a beaker","difficulty":4,"points":6,
+      "prompt":"Three separate beakers contain (i) NaCl in water, (ii) iodine, I₂, near water, and (iii) ethanol mixed with water.\n\n(a) Name the most important attraction between the species named in each beaker.\n(b) For NaCl in water, draw the orientation of one water molecule around Na⁺ and around Cl⁻. Explain why the two orientations must differ.",
+      "visual":{"type":"diagram","title":"Water approaching dissolved ions","nodes":[{"id":"na","label":"Na⁺","x":26,"y":38,"shape":"circle"},{"id":"cl","label":"Cl⁻","x":74,"y":38,"shape":"circle"},{"id":"w1","label":"H₂O","x":26,"y":76,"shape":"box"},{"id":"w2","label":"H₂O","x":74,"y":76,"shape":"box"}],"edges":[{"from":"w1","to":"na","label":"orient one end toward Na⁺"},{"from":"w2","to":"cl","label":"orient one end toward Cl⁻"}],"caption":"Draw the partial-charge ends of water in your response."},
+      "hints":["An ion interacting with a polar molecule is a distinct category from a hydrogen bond.","Water has a δ− oxygen end and δ+ hydrogen ends."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.1 Identify the IMFs that hold multiple copies of molecules together"},{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.4 Impact of IMFs on solubility"}]
+    },
+    {
+      "id":"q3","type":"worked-response","topic":"Hydrogen-bond look-alikes","difficulty":4,"points":6,
+      "prompt":"A student labels every molecule that contains O, N, or F as “hydrogen bonding.” Consider CH₃F, CH₃OCH₃, and CH₃CH₂OH.\n\n(a) For each pure substance, identify the strongest IMF it forms with itself.\n(b) Which of the three can accept a hydrogen bond from water, and which can donate one to water? Explain why the answers are not identical.",
+      "visual":{"type":"table","title":"Bonding clues","columns":["Molecule","Relevant group","H directly bonded to N/O/F?"],"rows":[["CH₃F","C–F","No"],["CH₃OCH₃","C–O–C","No"],["CH₃CH₂OH","O–H","Yes"]],"caption":"Use the actual covalent bond to the hydrogen, not merely the presence of an electronegative atom."},
+      "hints":["A molecule can have a suitable lone pair but no suitable donor H.","All molecular substances also have London dispersion."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.1 Identify the IMFs that hold multiple copies of molecules together"}]
+    },
+    {
+      "id":"q4","type":"worked-response","topic":"When size defeats polarity","difficulty":5,"points":7,
+      "prompt":"The data below are for pure substances.\n\n(a) Rank them from lowest to highest boiling point and explain your reasoning using both force type and molecular size.\n(b) Explain why it would be wrong to use only the statement “dipole–dipole is stronger than London dispersion” to rank HCl and octane.",
+      "visual":{"type":"table","title":"Substances to compare","columns":["Substance","Formula","Key feature"],"rows":[["methane","CH₄","small, nonpolar"],["hydrogen chloride","HCl","small, polar"],["ammonia","NH₃","small, N–H bonds"],["octane","C₈H₁₈","large, nonpolar"]],"caption":"Use the information in the table together with IMF reasoning."},
+      "hints":["For similar size, IMF type is a strong guide; this set is not all similar size.","More electrons and more surface area increase total London attraction."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.3 Rank IMFs by strength"}]
+    },
+    {
+      "id":"q5","type":"worked-response","topic":"Shape changes the contact area","difficulty":4,"points":6,
+      "prompt":"n-Pentane, 2-methylbutane, and neopentane all have formula C₅H₁₂.\n\n(a) Rank their boiling points from lowest to highest.\n(b) Explain why formula, molar mass, and dominant IMF are not enough to make them tie. Your explanation must refer to a molecular shape feature and the number/quality of contacts between molecules.",
+      "visual":{"type":"diagram","title":"Three C₅H₁₂ carbon skeletons","nodes":[{"id":"n","label":"n-pentane: long chain","x":20,"y":20,"shape":"box"},{"id":"i","label":"2-methylbutane: branched","x":50,"y":50,"shape":"box"},{"id":"neo","label":"neopentane: compact","x":80,"y":80,"shape":"box"}],"edges":[{"from":"n","to":"i","label":"more branching"},{"from":"i","to":"neo","label":"more compact"}],"caption":"All three have London dispersion as their dominant IMF."},
+      "hints":["Straight molecules can touch neighboring molecules along more surface.","Do not invent a dipole or hydrogen bonding in these hydrocarbons."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.3 Rank IMFs by strength"}]
+    },
+    {
+      "id":"q6","type":"worked-response","topic":"Reading retention evidence","difficulty":4,"points":7,
+      "prompt":"A GC column has a polar stationary phase. An unretained methane marker appears first at 1.5 min. The mixture’s two analyte peaks appear at 3.0 min and 7.5 min.\n\n(a) Calculate k for both analyte peaks.\n(b) The analytes are pentane and 1-propanol. Assign each analyte to a peak and explain the IMF-based reason.\n(c) State what the first peak represents and why it is not helium.",
+      "visual":{"type":"plot","title":"GC output","xLabel":"Time / min","yLabel":"Detector response","xDomain":[0,9],"yDomain":[0,100],"reverseX":false,"traces":[{"kind":"peaks","color":"#86513b","points":[{"x":1.5,"y":25,"label":"1.5"},{"x":3.0,"y":55,"label":"3.0"},{"x":7.5,"y":100,"label":"7.5"}]}],"caption":"The first peak is from the methane marker introduced with the sample."},
+      "hints":["Use the first peak’s time as tₘ.","A later peak means stronger interaction with the stationary phase."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.5b Reading a chromatogram: t_R, t_m, and k"},{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.5c Gas chromatography (GC)"}]
+    },
+    {
+      "id":"q7","type":"worked-response","topic":"The phase reversal","difficulty":4,"points":6,
+      "prompt":"Pentane and 1-propanol are instead separated by reverse-phase HPLC with a nonpolar stationary phase and a methanol/water mobile phase.\n\n(a) Rank the two analytes from earliest to latest elution and explain the tug of war with both phases.\n(b) If 1-propanol is taking too long to elute, state the specified change to the mobile-phase composition and why it decreases tR.",
+      "visual":{"type":"table","title":"Reverse-phase HPLC setup","columns":["Phase","Polarity","Role"],"rows":[["Packed stationary particles","nonpolar","retains analytes"],["Methanol/water mixture","polar","carries analytes"],["1-propanol","polar, can H-bond","analyte"],["pentane","nonpolar","analyte"]],"caption":"Use the phase properties to determine which interactions dominate."},
+      "hints":["Ask which analyte is carried especially well by the mobile liquid.","The course notes specify how increasing the water fraction changes the mobile phase."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.5d High performance liquid chromatography (HPLC), reverse phase"}]
+    },
+    {
+      "id":"q8","type":"worked-response","topic":"Solubility as a replacement problem","difficulty":4,"points":6,
+      "prompt":"Predict whether each pair forms a well-mixed solution or separates into layers: ethanol + water, octanol + water, and hexane + water.\n\n(a) Complete the prediction for all three.\n(b) For octanol + water, explain why the molecule’s O–H group does not automatically make the whole molecule highly water-soluble.\n(c) Explain what water–water attractions would have to be replaced if hexane mixed with water.",
+      "visual":{"type":"table","title":"Solvent-pair evidence","columns":["Pair","Polar/H-bonding feature","Nonpolar feature"],"rows":[["ethanol + water","one O–H","short carbon group"],["octanol + water","one O–H","eight-carbon chain"],["hexane + water","none on hexane","six-carbon chain"]],"caption":"Judge the balance of the whole molecule, not just one functional group."},
+      "hints":["As an alcohol’s hydrocarbon tail grows, its water solubility falls.","Mixing must replace attractions already present in both pure liquids."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.4 Impact of IMFs on solubility"}]
+    },
+    {
+      "id":"q9","type":"worked-response","topic":"What a phase change breaks","difficulty":3,"points":5,
+      "prompt":"A student claims that boiling a beaker of water breaks the O–H covalent bonds, leaving hydrogen and oxygen atoms in the vapor.\n\n(a) Correct the claim by identifying what attractions are disrupted during boiling and what chemical formula the vapor still has.\n(b) Compare an intramolecular covalent bond and an intermolecular force in terms of where it acts and which process normally disrupts it.",
+      "hints":["Steam is not a new substance.","Use the words within and between carefully."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.2 How IMFs differ from covalent bonds"}]
+    },
+    {
+      "id":"q10","type":"worked-response","topic":"Temperature changes the winner","difficulty":5,"points":7,
+      "prompt":"At about 288 K, Earth has liquid water and methane is a gas. At about 94 K on Titan, methane forms liquid lakes and water is solid ice.\n\n(a) Complete a two-column explanation by identifying the dominant IMF for each substance.\n(b) Explain all four phase observations using the competition between thermal energy and intermolecular attraction.\n(c) State why “methane is a gas” is not a complete chemical property statement.",
+      "visual":{"type":"table","title":"Planetary conditions","columns":["Location","Temperature","Water","Methane"],"rows":[["Earth","about 288 K","liquid","gas"],["Titan","about 94 K","solid","liquid"]],"caption":"Compare the molecules’ attractions with the thermal energy available at each location."},
+      "hints":["Water and methane do not have the same strongest interaction.","A lower temperature changes molecular kinetic energy."],
+      "sourceRefs":[{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"4.6 IMFs vs thermal energy: why phases differ (Lecture 10, Titan)"}]
+    }
+  ]
+}

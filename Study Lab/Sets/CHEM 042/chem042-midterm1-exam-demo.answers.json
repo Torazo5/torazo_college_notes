@@ -1,0 +1,20 @@
+{
+  "setId": "chem042-midterm1-exam-demo",
+  "answers": {
+    "q1": {
+      "answer": "The approximately 1:1 M:M+2 pattern indicates one bromine atom because 79Br and 81Br occur at nearly equal natural abundance. To support the molecular-ion assignment, identify the highest-mass isotope cluster and check whether lower-mass peaks can be explained as chemically plausible fragment losses; only charged fragments are detected.",
+      "rubric": ["Identifies bromine from the 1:1 M:M+2 pattern.", "States that the pair should be part of the highest-mass molecular-ion cluster.", "Uses plausible fragment losses or isotope-cluster context as supporting evidence."],
+      "explanation": "A single chlorine would instead give an approximately 3:1 M:M+2 pair. The pattern identifies the isotope signature, while the spectrum context determines whether the cluster is the intact molecular ion."
+    },
+    "q2": {
+      "answer": "C(=O)–O–C",
+      "rubric": ["Selects C(=O)–O–C.", "Can explain that the carbonyl oxygen has a double bond and the bridging oxygen has two single bonds."],
+      "explanation": "Both oxygen atoms then have two bonds and two lone pairs, giving each a formal charge of zero."
+    },
+    "q3": {
+      "answer": "(10.013 × 0.199) + (11.009 × 0.801) = 10.81 u, to two decimal places.",
+      "rubric": ["Converts 19.9% and 80.1% to 0.199 and 0.801.", "Multiplies each isotope mass by its fractional abundance.", "Adds the contributions and reports approximately 10.81 u."],
+      "explanation": "Average atomic mass is a weighted mean, so the more abundant isotope contributes more strongly to the result."
+    }
+  }
+}

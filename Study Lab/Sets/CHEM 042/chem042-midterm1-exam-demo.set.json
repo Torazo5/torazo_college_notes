@@ -1,0 +1,63 @@
+{
+  "id": "chem042-midterm1-exam-demo",
+  "course": "CHEM 042",
+  "title": "Midterm 1 mixed practice",
+  "mode": "exam",
+  "generatedAt": "2026-09-21T12:00:00-07:00",
+  "examDate": "2026-09-24",
+  "estimatedMinutes": 20,
+  "sources": ["Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"],
+  "questions": [
+    {
+      "id": "q1",
+      "type": "worked-response",
+      "topic": "Mass spectrometry",
+      "difficulty": 4,
+      "points": 5,
+      "prompt": "An unknown compound has molecular-ion peaks at m/z 156 and 158 with approximately equal intensity. Explain what this pattern indicates, then state what additional evidence you would use to distinguish the molecular ion from a fragment peak.",
+      "visual": {
+        "type": "plot",
+        "title": "Molecular-ion region",
+        "xLabel": "m/z",
+        "yLabel": "Relative abundance",
+        "xDomain": [154, 160],
+        "yDomain": [0, 100],
+        "reverseX": false,
+        "traces": [
+          {
+            "kind": "peaks",
+            "color": "#9b4e35",
+            "points": [
+              {"x": 156, "y": 100, "label": "156"},
+              {"x": 158, "y": 98, "label": "158"}
+            ]
+          }
+        ],
+        "caption": "Only the highest-mass region of the spectrum is shown."
+      },
+      "hints": ["Focus on the element whose two common isotopes occur in an approximately 1:1 ratio."],
+      "sourceRefs": [{"file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md", "heading": "1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"}]
+    },
+    {
+      "id": "q2",
+      "type": "multiple-choice",
+      "topic": "Lewis structures",
+      "difficulty": 3,
+      "points": 2,
+      "prompt": "Which arrangement gives both oxygen atoms in an ester neutral formal charges?",
+      "choices": ["C–O–O–C", "C(=O)–O–C", "C–O=C–C", "C(–O)–O–C with three single bonds on each oxygen"],
+      "hints": ["Compare each oxygen with its usual neutral pattern: two bonds and two lone pairs."],
+      "sourceRefs": [{"file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md", "heading": "1.6 Draw and evaluate Lewis structures"}]
+    },
+    {
+      "id": "q3",
+      "type": "worked-response",
+      "topic": "Isotopic abundance",
+      "difficulty": 3,
+      "points": 4,
+      "prompt": "An element has isotopes of mass 10.013 at 19.9% abundance and 11.009 at 80.1% abundance. Calculate its average atomic mass and show the weighted-average setup.",
+      "hints": ["Convert each percentage to a decimal before multiplying by its isotope mass."],
+      "sourceRefs": [{"file": "Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md", "heading": "1.4 Calculate average atomic and molecular masses based on isotopic abundance"}]
+    }
+  ]
+}

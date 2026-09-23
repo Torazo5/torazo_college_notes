@@ -1,0 +1,8 @@
+{
+  "setId": "chem042-midterm1-fundamentals-demo",
+  "answers": {
+    "q1": {"answer": "Isotopes are atoms of the same element with the same number of protons but different numbers of neutrons, and therefore different mass numbers.", "rubric": ["Says they are atoms of the same element.", "States that proton number stays the same.", "States that neutron number changes."], "explanation": "The shared proton number is what makes the atoms the same element; the different neutron count changes their mass."},
+    "q2": {"answer": "The base peak is the tallest peak and is assigned 100% relative abundance. It may be a particularly stable or abundant charged fragment rather than the intact molecular ion.", "rubric": ["Defines the base peak as the tallest or most abundant detected ion peak.", "Notes that it is normalized to 100% relative abundance.", "Explains that a fragment can be more abundant than the intact molecular ion."], "explanation": "Peak height reports ion abundance, not whether an ion is the original whole molecule."
+    }
+  }
+}

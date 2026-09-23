@@ -1,0 +1,4 @@
+interface:
+  display_name: "Study Lab"
+  short_description: "Generate source-grounded practice sets"
+  default_prompt: "Use $study-lab and tell me what kind of practice you want in your own words."

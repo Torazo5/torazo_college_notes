@@ -1,0 +1,8 @@
+{
+  "setId": "chem042-midterm1-weak-spots-demo",
+  "answers": {
+    "q1": {"answer": "A lone pair is a pair of two non-bonding electrons. An unpaired electron is a single electron without a partner in the same orbital. A species with one or more unpaired electrons is a radical.", "rubric": ["Defines a lone pair as two non-bonding electrons.", "Defines an unpaired electron as a single electron without a partner.", "Identifies the unpaired electron, not a lone pair, as the defining feature of a radical."], "explanation": "The distinction matters in Lewis structures and in mass spectrometry, where the molecular ion can be both a radical and a cation."},
+    "q2": {"answer": "The detector responds to ions, so a neutral fragment is not deflected and counted as a detected m/z peak. Its mass can still be inferred from the difference between the parent-ion mass and the charged-fragment mass.", "rubric": ["States that only charged species are detected.", "Explains that the neutral piece therefore has no direct peak.", "Uses the mass difference between parent and charged fragment to infer the neutral loss."], "explanation": "A fragmentation event commonly produces one charged fragment and one neutral radical; only the charged member of that pair is visible to the detector."
+    }
+  }
+}

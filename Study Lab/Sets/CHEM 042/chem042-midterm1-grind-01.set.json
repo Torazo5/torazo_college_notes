@@ -1,0 +1,76 @@
+{
+  "id": "chem042-midterm1-grind-01",
+  "course": "CHEM 042",
+  "title": "Midterm 1 grind 1 — evidence, bonds, and IR",
+  "mode": "exam",
+  "generatedAt": "2026-09-22T01:00:00-07:00",
+  "examDate": "2026-09-24",
+  "estimatedMinutes": 55,
+  "sources": ["Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md"],
+  "questions": [
+    {
+      "id": "q1", "type": "worked-response", "topic": "Evidence from a mass spectrum", "difficulty": 4, "points": 6,
+      "prompt": "The highest-mass peaks for an unknown are shown. (a) State what the spacing and relative heights say about the atom(s) in the intact molecule. (b) A lower-mass pair occurs at m/z 63 and 65 in about a 3:1 ratio. Explain what the lower pair says about the charged fragment and why the neutral piece from its formation is absent from the spectrum.",
+      "visual": {"type":"plot","title":"Highest-mass region","xLabel":"m/z","yLabel":"Relative abundance","xDomain":[126,132],"yDomain":[0,100],"reverseX":false,"traces":[{"kind":"peaks","color":"#9b4e35","points":[{"x":128,"y":100,"label":"128"},{"x":130,"y":66,"label":"130"}]}],"caption":"This is the highest-mass cluster observed."},
+      "hints": ["Compare the pattern with the one-atom and two-atom isotope patterns in your table.", "A charged fragment retains any isotope signature from atoms that remain in it."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"1.5 Interpret mass spectra to determine the mass and chemical formula of a substance"}]
+    },
+    {
+      "id": "q2", "type": "worked-response", "topic": "Counting isotope combinations", "difficulty": 4, "points": 6,
+      "prompt": "A molecule has two chlorine atoms. Use 0.75 for the fraction of ³⁵Cl and 0.25 for the fraction of ³⁷Cl. (a) Calculate the probabilities for the all-light, mixed, and all-heavy chlorine combinations. (b) Give the resulting M : M+2 : M+4 ratio and explain why the mixed term must include a factor of 2.",
+      "hints": ["There are two distinguishable ways to get one light and one heavy isotope.", "Normalize the three probabilities to the smallest one for a simple ratio."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"1.9 Predict simple fragmentation patterns for hydrocarbons and halogenated hydrocarbons"}]
+    },
+    {
+      "id": "q3", "type": "worked-response", "topic": "Structure bookkeeping", "difficulty": 4, "points": 6,
+      "prompt": "For HCN, (a) use the HAVE/NEED method to determine the total number of bonds and lone pairs, then draw a Lewis structure. (b) Calculate the formal charge on each atom and decide whether the molecule has a net molecular dipole. Give the geometry about carbon as part of your reasoning.",
+      "hints": ["Hydrogen needs 2 electrons; C and N each need 8.", "For formal charge, count lone-pair electrons rather than lone-pair pairs."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"1.6 Draw and evaluate Lewis structures"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.9 Use VSEPR to predict shape and polarity"}]
+    },
+    {
+      "id": "q4", "type": "worked-response", "topic": "Bond breaking evidence", "difficulty": 3, "points": 5,
+      "prompt": "Electron ionization of a hydrocarbon produces intense ions at m/z 15, 29, 43, and 57, separated by 14 mass units. (a) Assign a chemically plausible formula to the m/z 43 ion. (b) Explain which family of bonds is preferentially breaking and use the bond-energy trend to explain why this is more likely than loss of hydrogen atoms.",
+      "hints": ["A 14-unit difference is one CH₂ group.", "Compare the course-average strengths of C–C and C–H bonds."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"1.9 Predict simple fragmentation patterns for hydrocarbons and halogenated hydrocarbons"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"1.8 Define bond dissociation energies and use them to evaluate bond strength"}]
+    },
+    {
+      "id": "q5", "type": "worked-response", "topic": "Energy and absorption", "difficulty": 4, "points": 6,
+      "prompt": "A student says: “IR sends radio waves into a sample, and an upward feature means the sample absorbed more light.” (a) Correct both errors, including what must match for absorption to occur. (b) On the supplied sketch, explain why the curve is much steeper when the nuclei are pushed too close together than when the bond is stretched toward dissociation.",
+      "visual": {"type":"diagram","title":"Bond potential-energy sketch","nodes":[{"id":"a","label":"compressed nuclei","x":14,"y":22,"shape":"box"},{"id":"b","label":"equilibrium distance","x":45,"y":78,"shape":"circle"},{"id":"c","label":"separated atoms","x":87,"y":39,"shape":"box"}],"edges":[{"from":"a","to":"b","label":"energy falls steeply"},{"from":"b","to":"c","label":"energy rises toward plateau"}],"caption":"The nodes mark positions along a potential-energy curve, not energy levels."},
+      "hints": ["Separate the kind of electromagnetic radiation from the detector’s vertical axis.", "Think about repulsion at very short internuclear distance."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.2 Explain absorption spectroscopy"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.3 Illustrate with potential energy diagrams how light excites vibrational energy levels"}]
+    },
+    {
+      "id": "q6", "type": "worked-response", "topic": "Comparing vibrations", "difficulty": 5, "points": 7,
+      "prompt": "For this question, assume a C–C single bond and a C–N single bond are both observable. (a) Calculate the reduced mass of each using C = 12 and N = 14. (b) Predict which one absorbs at the higher wavenumber if their force constants are comparable. (c) A C=C bond has a stretching signal at 1650 cm⁻¹. If the question explicitly tells you to assume force constant is proportional to bond order, estimate the C≡C stretching wavenumber.",
+      "hints": ["Reduced mass is a product divided by a sum, not the sum of the masses.", "For the last part, wavenumber scales with the square root of the force constant."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.8 Correlate bond force constant and reduced mass to IR wavenumber"}]
+    },
+    {
+      "id": "q7", "type": "worked-response", "topic": "Reading an IR trace", "difficulty": 4, "points": 6,
+      "prompt": "An unknown has the absorptions represented below. (a) Identify the two most diagnostic bond features and give the most supported functional-group class. (b) Explain why the low-transmittance portions point downward, and state which side of a standard IR spectrum has higher wavenumber.",
+      "visual": {"type":"plot","title":"IR observations","xLabel":"Wavenumber / cm⁻¹","yLabel":"% transmittance","xDomain":[400,4000],"yDomain":[0,100],"reverseX":true,"traces":[{"kind":"line","color":"#285f88","points":[{"x":4000,"y":95},{"x":3350,"y":90},{"x":2960,"y":91},{"x":1715,"y":18},{"x":1220,"y":38},{"x":400,"y":94}]}],"caption":"The trace is schematic; only the marked regions are intended as evidence."},
+      "hints": ["Use the combination of features, not one peak alone.", "In transmittance mode, less light arriving at the detector means a lower plotted value."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.4 Explain the axes and data points on an IR spectrum"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.14 Interpret an IR spectrum to identify functional groups"}]
+    },
+    {
+      "id": "q8", "type": "worked-response", "topic": "Activity and intensity", "difficulty": 4, "points": 6,
+      "prompt": "Consider N₂, HCl, and the symmetric stretch of CO₂. (a) Predict which cases have an observable IR stretching absorption and justify each by what happens to the molecular dipole during the vibration. (b) Compare the expected intensity of C=O and C=C stretches in otherwise similar molecules, and explain the difference without claiming that every double bond is equally intense.",
+      "hints": ["Ask whether the vibration changes dipole moment, not simply whether a bond exists.", "Intensity tracks the size of the dipole change."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.11 Explain how vibrational modes can be IR active or inactive"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.12 Predict the relative intensity of IR signals"}]
+    },
+    {
+      "id": "q9", "type": "worked-response", "topic": "Shape and whole-molecule polarity", "difficulty": 4, "points": 6,
+      "prompt": "For each central atom in SO₂, (a) state the electron geometry and molecular shape, then give the approximate bond angle. (b) Draw the two S–O bond dipoles and decide whether they cancel. Explain why “two equal bond dipoles” alone is not enough to decide the answer.",
+      "visual": {"type":"diagram","title":"SO₂ connectivity","nodes":[{"id":"o1","label":"O","x":18,"y":25,"shape":"circle"},{"id":"s","label":"S","x":50,"y":60,"shape":"circle"},{"id":"o2","label":"O","x":82,"y":25,"shape":"circle"},{"id":"lp","label":"one lone-pair domain","x":50,"y":12,"shape":"box"}],"edges":[{"from":"s","to":"o1","label":"bond"},{"from":"s","to":"o2","label":"bond"}],"caption":"Use electron domains around sulfur; this schematic is not drawn to an angle scale."},
+      "hints": ["A double bond is one electron domain for VSEPR.", "Molecular shape ignores the lone pair, but the lone pair still changes the geometry."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.9 Use VSEPR to predict shape and polarity"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.10 Draw and identify the direction and relative magnitude of bond dipoles"}]
+    },
+    {
+      "id": "q10", "type": "worked-response", "topic": "Periodic trends tied to bonding", "difficulty": 4, "points": 6,
+      "prompt": "Without using numerical BDE values, rank H–F, H–Cl, H–Br, and H–I from strongest to weakest. Then explain why both atom size and electronegativity support your order. Finally, state which bond has the larger electronegativity difference, H–F or H–Cl, and why that fact should not be used to calculate an exact BDE.",
+      "hints": ["Moving down a group changes both bond length and electronegativity.", "Use electronegativity to reason about direction and relative ionic character, not as a direct BDE calculator."],
+      "sourceRefs": [{"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.6 Predict relative bond strengths WITHOUT BDE values"}, {"file":"Courses/CHEM 042 - Chemistry in the Modern World/Midterm 1 - Master Study Guide.md","heading":"2.5 Predict relative size, mass, and electronegativity from the periodic table"}]
+    }
+  ]
+}

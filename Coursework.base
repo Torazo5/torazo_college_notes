@@ -1,0 +1,60 @@
+filters:
+  or:
+    - type == "homework"
+    - type == "assignment"
+
+views:
+  - type: table
+    name: All Coursework
+    sortBy:
+      - key: due
+        direction: ascending
+    columns:
+      - file.name
+      - type
+      - course
+      - due
+      - status
+
+  - type: table
+    name: Not Done
+    filters:
+      and:
+        - status != "done"
+    sortBy:
+      - key: due
+        direction: ascending
+    columns:
+      - file.name
+      - type
+      - course
+      - due
+      - status
+
+  - type: table
+    name: Homework
+    filters:
+      and:
+        - type == "homework"
+    sortBy:
+      - key: due
+        direction: ascending
+    columns:
+      - file.name
+      - course
+      - due
+      - status
+
+  - type: table
+    name: Assignments
+    filters:
+      and:
+        - type == "assignment"
+    sortBy:
+      - key: due
+        direction: ascending
+    columns:
+      - file.name
+      - course
+      - due
+      - status
