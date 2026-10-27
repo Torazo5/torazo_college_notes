@@ -14,6 +14,3 @@ date:
 
 ## Summary
 
-
-## Questions for AI / Follow-up
-- 

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" font-family="Georgia, 'Times New Roman', serif">
+<rect width="640" height="480" rx="12" fill="#ffffff"/>
+<line x1="320" y1="50" x2="170" y2="190" stroke="#9ca3af" stroke-width="3"/>
+<line x1="320" y1="50" x2="470" y2="190" stroke="#9ca3af" stroke-width="3"/>
+<line x1="170" y1="190" x2="90" y2="330" stroke="#2563eb" stroke-width="3"/>
+<line x1="470" y1="190" x2="390" y2="330" stroke="#2563eb" stroke-width="3"/>
+<line x1="170" y1="190" x2="250" y2="330" stroke="#ea580c" stroke-width="3"/>
+<line x1="470" y1="190" x2="550" y2="330" stroke="#ea580c" stroke-width="3"/>
+<text x="200" y="110" font-size="17" font-style="italic" text-anchor="middle" fill="#111827">∂f/∂x = 2xy</text>
+<text x="445" y="110" font-size="17" font-style="italic" text-anchor="middle" fill="#111827">∂f/∂y = x²</text>
+<text x="85" y="262" font-size="16" font-style="italic" text-anchor="middle" fill="#2563eb">∂x/∂s = 1</text>
+<text x="265" y="262" font-size="16" font-style="italic" text-anchor="middle" fill="#ea580c">∂x/∂t = 2t</text>
+<text x="385" y="262" font-size="16" font-style="italic" text-anchor="middle" fill="#2563eb">∂y/∂s = t</text>
+<text x="565" y="262" font-size="16" font-style="italic" text-anchor="middle" fill="#ea580c">∂y/∂t = s</text>
+<circle cx="320" cy="50" r="26" fill="#f3f4f6" stroke="#374151" stroke-width="2.5"/><text x="320" y="58" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">F</text>
+<circle cx="170" cy="190" r="26" fill="#f3f4f6" stroke="#374151" stroke-width="2.5"/><text x="170" y="198" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">x</text>
+<circle cx="470" cy="190" r="26" fill="#f3f4f6" stroke="#374151" stroke-width="2.5"/><text x="470" y="198" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">y</text>
+<circle cx="90" cy="330" r="26" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/><text x="90" y="338" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">s</text>
+<circle cx="250" cy="330" r="26" fill="#ffedd5" stroke="#ea580c" stroke-width="2.5"/><text x="250" y="338" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">t</text>
+<circle cx="390" cy="330" r="26" fill="#dbeafe" stroke="#2563eb" stroke-width="2.5"/><text x="390" y="338" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">s</text>
+<circle cx="550" cy="330" r="26" fill="#ffedd5" stroke="#ea580c" stroke-width="2.5"/><text x="550" y="338" font-size="24" font-style="italic" text-anchor="middle" fill="#111827">t</text>
+<text x="40" y="400" font-size="18" font-style="italic" fill="#2563eb">F<tspan dy="6" font-size="13">s</tspan><tspan dy="-6"> = (∂f/∂x)(∂x/∂s) + (∂f/∂y)(∂y/∂s)</tspan></text>
+<text x="40" y="432" font-size="18" font-style="italic" fill="#ea580c">F<tspan dy="6" font-size="13">t</tspan><tspan dy="-6"> = (∂f/∂x)(∂x/∂t) + (∂f/∂y)(∂y/∂t)</tspan></text>
+<text x="40" y="464" font-size="14" fill="#6b7280">Multiply the labels along each path down to the variable, then add the paths.</text>
+</svg>

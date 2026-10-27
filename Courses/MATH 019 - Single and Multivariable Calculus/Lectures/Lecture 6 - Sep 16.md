@@ -339,6 +339,12 @@ f_{xy}=f_{yx}
 $$
 
 if $f$ is continuous on an open set, then (this is true? idk ai note help)
+open st means something without an edge
+so like $x^2+y^2<1$
+means we can stand on $(0.999999999,0)$ but still can move a bit cuz we can just increment less
+but for $x^2+y^2\leq{1}$
+if we stand on the egde (1,0) even the smallest increment is wraps.
+
 
 #### Example 11 — $f(x,y) = y^2e^{\sqrt{1+y^2}} + \ln(x^2+y^2)$, find $f_{yx}$
 
